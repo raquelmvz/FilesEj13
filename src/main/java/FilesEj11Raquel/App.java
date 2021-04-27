@@ -23,6 +23,7 @@ public class App {
     private LocalDate fechaCreacion;
     private static int contadorInstancias = 0;
     private static Random random = new Random();
+    //quitar de aqui
     private static final double TAMANIO_MIN_APP = 100.0;
     private static final double TAMANIO_MAX_APP = 1024.0;
     private static final int TAMANIO_STREAM = 1;
