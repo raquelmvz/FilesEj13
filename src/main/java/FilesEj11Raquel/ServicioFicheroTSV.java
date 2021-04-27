@@ -40,7 +40,7 @@ public class ServicioFicheroTSV {
 //
 //        }
 //    }
-    public static void creaFicheroVacio(String ruta) {
+    private static void creaFicheroVacio(String ruta) {
 
         //Path file = Paths.get(ruta, "/" + nombreFichero + ".tsv");
         Path file = Paths.get(ruta);
@@ -55,7 +55,7 @@ public class ServicioFicheroTSV {
 
     }
 
-    public static void escribeEnFichero(String ruta, ArrayList<App> lista) {
+    private static void escribeEnFichero(String ruta, ArrayList<App> lista) {
 
         String idFichero = ruta;//ruta del fichero
 

@@ -148,24 +148,24 @@ public class App {
     }
 
     /* Metodo que genera un nombre de manera aleatoria */
-    public static String generaNombreAleatorio() {
+    private static String generaNombreAleatorio() {
         //el formato es app+código único+letra aleatoria (a-z)
         return "App" + getContadorInstancias() + letraMinuscula();
 
     }
 
     /* Genera letra minuscula aleatoria */
-    public static char letraMinuscula() {
+    private static char letraMinuscula() {
         return (char) (97 + random.nextInt(27));
     }
 
     /* Metodo para generar valores aleatorios entre dos numeros */
-    public static int devuelveAleatorio(int n, int m) {
+    private static int devuelveAleatorio(int n, int m) {
         return random.nextInt(m - n + 1) + n;
     }
 
     /* Genera descripcion aleatoria */
-    public static String generaDescripcionAleatoria() {
+    private static String generaDescripcionAleatoria() {
         String[] descripciones = {"Descripcion numero 1", "Descripcion numero 2", "Descripcion numero 3",
             "Descripcion numero 4", "Descripcion numero 5", "Descripcion numero 6",
             "Descripcion numero 7", "Descripcion numero 8", "Descripcion numero 9", "Descripcion numero 10"};
@@ -174,16 +174,16 @@ public class App {
     }
 
     /* Metodo que genera el tamaño de las aplicaciones */
-    public static double generaTamanioAleatorio() {
+    private static double generaTamanioAleatorio() {
 
         return ((random.doubles(TAMANIO_STREAM, TAMANIO_MIN_APP, TAMANIO_MAX_APP)).toArray())[0];
     }
 
     /* Metodo que genera una fecha aleaatoria */
-    public static LocalDate generaFechaAleatoria() {
+    private static LocalDate generaFechaAleatoria() {
         int anio = devuelveAleatorio(1970, 2022);
         int mes = devuelveAleatorio(1, 12);
-        int dia = 0;
+        int dia;
 
         switch (mes) {
             case 2:
