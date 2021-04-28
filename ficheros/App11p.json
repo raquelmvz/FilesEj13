@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 11,
+  "nombre" : "App11p",
+  "descripcion" : "Descripcion numero 3",
+  "tamanioKb" : 482.50732231414,
+  "fechaCreacion" : {
+    "year" : 1982,
+    "month" : "FEBRUARY",
+    "monthValue" : 2,
+    "dayOfMonth" : 24,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "dayOfWeek" : "WEDNESDAY",
+    "leapYear" : false,
+    "dayOfYear" : 55,
+    "era" : "CE"
+  }
+}

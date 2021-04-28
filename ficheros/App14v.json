@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 14,
+  "nombre" : "App14v",
+  "descripcion" : "Descripcion numero 10",
+  "tamanioKb" : 692.4144361564739,
+  "fechaCreacion" : {
+    "year" : 2019,
+    "month" : "JULY",
+    "monthValue" : 7,
+    "dayOfMonth" : 17,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "dayOfWeek" : "WEDNESDAY",
+    "leapYear" : false,
+    "dayOfYear" : 198,
+    "era" : "CE"
+  }
+}

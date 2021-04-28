@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 17,
+  "nombre" : "App17b",
+  "descripcion" : "Descripcion numero 6",
+  "tamanioKb" : 745.5311985548249,
+  "fechaCreacion" : {
+    "year" : 2015,
+    "month" : "DECEMBER",
+    "monthValue" : 12,
+    "dayOfMonth" : 22,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "dayOfWeek" : "TUESDAY",
+    "leapYear" : false,
+    "dayOfYear" : 356,
+    "era" : "CE"
+  }
+}

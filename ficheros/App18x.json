@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 18,
+  "nombre" : "App18x",
+  "descripcion" : "Descripcion numero 7",
+  "tamanioKb" : 727.3208813940132,
+  "fechaCreacion" : {
+    "year" : 1971,
+    "month" : "SEPTEMBER",
+    "monthValue" : 9,
+    "dayOfMonth" : 21,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "dayOfWeek" : "TUESDAY",
+    "leapYear" : false,
+    "dayOfYear" : 264,
+    "era" : "CE"
+  }
+}

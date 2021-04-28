@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 2,
+  "nombre" : "App2g",
+  "descripcion" : "Descripcion numero 5",
+  "tamanioKb" : 195.4397722797533,
+  "fechaCreacion" : {
+    "year" : 1993,
+    "month" : "NOVEMBER",
+    "monthValue" : 11,
+    "dayOfMonth" : 20,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "dayOfWeek" : "SATURDAY",
+    "leapYear" : false,
+    "dayOfYear" : 324,
+    "era" : "CE"
+  }
+}

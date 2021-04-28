@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 5,
+  "nombre" : "App5w",
+  "descripcion" : "Descripcion numero 7",
+  "tamanioKb" : 887.1413492117351,
+  "fechaCreacion" : {
+    "year" : 2012,
+    "month" : "SEPTEMBER",
+    "monthValue" : 9,
+    "dayOfMonth" : 24,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "dayOfWeek" : "MONDAY",
+    "leapYear" : true,
+    "dayOfYear" : 268,
+    "era" : "CE"
+  }
+}

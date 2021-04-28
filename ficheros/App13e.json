@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 13,
+  "nombre" : "App13e",
+  "descripcion" : "Descripcion numero 2",
+  "tamanioKb" : 167.43812966427856,
+  "fechaCreacion" : {
+    "year" : 1996,
+    "month" : "JULY",
+    "monthValue" : 7,
+    "dayOfMonth" : 23,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "dayOfWeek" : "TUESDAY",
+    "leapYear" : true,
+    "dayOfYear" : 205,
+    "era" : "CE"
+  }
+}

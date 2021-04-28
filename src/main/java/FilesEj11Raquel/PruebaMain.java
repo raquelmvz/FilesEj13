@@ -5,7 +5,9 @@
  */
 package FilesEj11Raquel;
 
+import static FilesEj11Raquel.ServicioFicheroJSON.creaArchivoJSON;
 import static FilesEj11Raquel.ServicioFicheroTSV.creaArchivoTSV;
+import java.io.IOException;
 import java.util.ArrayList;
 
 /**
@@ -14,7 +16,7 @@ import java.util.ArrayList;
  */
 public class PruebaMain {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         ArrayList<App> listaApps = new ArrayList<>();
 
@@ -23,6 +25,13 @@ public class PruebaMain {
         }
 
         creaArchivoTSV("./ficheros/listaAplicaciones.tsv", listaApps);
+        
+        
+        creaArchivoJSON("./ficheros/listaApps.json", listaApps);
+        
+        for (int i = 0; i < listaApps.size(); i++) {
+            creaArchivoJSON("./ficheros/"+listaApps.get(i).getNombre()+".json", listaApps.get(i));
+        }
     }
 
 }

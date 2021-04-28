@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 10,
+  "nombre" : "App10l",
+  "descripcion" : "Descripcion numero 6",
+  "tamanioKb" : 691.0330601835826,
+  "fechaCreacion" : {
+    "year" : 2009,
+    "month" : "JANUARY",
+    "monthValue" : 1,
+    "dayOfMonth" : 19,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "dayOfWeek" : "MONDAY",
+    "leapYear" : false,
+    "dayOfYear" : 19,
+    "era" : "CE"
+  }
+}
