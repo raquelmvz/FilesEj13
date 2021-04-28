@@ -15,7 +15,7 @@ import java.util.ArrayList;
  *
  * @author raque
  */
-public class PruebaMain {
+public class Programa {
 
     public static void main(String[] args) throws IOException {
 
