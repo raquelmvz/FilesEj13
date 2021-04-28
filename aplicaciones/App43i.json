@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 43,
+  "nombre" : "App43i",
+  "descripcion" : "Descripcion numero 7",
+  "tamanioKb" : 456.95923215196444,
+  "fechaCreacion" : {
+    "year" : 1987,
+    "month" : "AUGUST",
+    "monthValue" : 8,
+    "dayOfMonth" : 2,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "dayOfWeek" : "SUNDAY",
+    "leapYear" : false,
+    "dayOfYear" : 214,
+    "era" : "CE"
+  }
+}

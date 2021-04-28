@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 36,
+  "nombre" : "App36j",
+  "descripcion" : "Descripcion numero 3",
+  "tamanioKb" : 647.384586839414,
+  "fechaCreacion" : {
+    "year" : 2022,
+    "month" : "DECEMBER",
+    "monthValue" : 12,
+    "dayOfMonth" : 3,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "dayOfWeek" : "SATURDAY",
+    "leapYear" : false,
+    "dayOfYear" : 337,
+    "era" : "CE"
+  }
+}

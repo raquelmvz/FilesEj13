@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 32,
+  "nombre" : "App32y",
+  "descripcion" : "Descripcion numero 7",
+  "tamanioKb" : 639.9267002314576,
+  "fechaCreacion" : {
+    "year" : 1983,
+    "month" : "MAY",
+    "monthValue" : 5,
+    "dayOfMonth" : 30,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "dayOfWeek" : "MONDAY",
+    "leapYear" : false,
+    "dayOfYear" : 150,
+    "era" : "CE"
+  }
+}

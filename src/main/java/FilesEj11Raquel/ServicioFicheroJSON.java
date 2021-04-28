@@ -16,29 +16,27 @@ import java.util.ArrayList;
  * @author raquel
  */
 public class ServicioFicheroJSON {
-    
+
     public static void creaArchivoJSON(String rutaArchivo, ArrayList<App> lista) throws IOException {
-        
+
         ObjectMapper mapeador = new ObjectMapper();
-        
+
         mapeador.configure(SerializationFeature.INDENT_OUTPUT, true);
-        
-        // Escribe en un fichero JSON el catálogo de muebles
+
+        // Escribe en un fichero JSON la lista
         mapeador.writeValue(new File(rutaArchivo), lista);
-        
-        
+
     }
-    
+
     public static void creaArchivoJSON(String rutaArchivo, App app) throws IOException {
-        
+
         ObjectMapper mapeador = new ObjectMapper();
-        
+
         mapeador.configure(SerializationFeature.INDENT_OUTPUT, true);
-        
+
         // Escribe en un fichero JSON el catálogo de muebles
         mapeador.writeValue(new File(rutaArchivo), app);
-        
-        
+
     }
-    
+
 }

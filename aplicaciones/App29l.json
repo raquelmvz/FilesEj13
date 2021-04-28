@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 29,
+  "nombre" : "App29l",
+  "descripcion" : "Descripcion numero 8",
+  "tamanioKb" : 231.80945095612202,
+  "fechaCreacion" : {
+    "year" : 1992,
+    "month" : "MARCH",
+    "monthValue" : 3,
+    "dayOfMonth" : 8,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "dayOfWeek" : "SUNDAY",
+    "leapYear" : true,
+    "dayOfYear" : 68,
+    "era" : "CE"
+  }
+}

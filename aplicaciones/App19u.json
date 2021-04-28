@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 19,
+  "nombre" : "App19u",
+  "descripcion" : "Descripcion numero 5",
+  "tamanioKb" : 851.9130501607233,
+  "fechaCreacion" : {
+    "year" : 2021,
+    "month" : "FEBRUARY",
+    "monthValue" : 2,
+    "dayOfMonth" : 11,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "dayOfWeek" : "THURSDAY",
+    "leapYear" : false,
+    "dayOfYear" : 42,
+    "era" : "CE"
+  }
+}

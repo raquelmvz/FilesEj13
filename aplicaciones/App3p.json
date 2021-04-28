@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 3,
+  "nombre" : "App3p",
+  "descripcion" : "Descripcion numero 4",
+  "tamanioKb" : 175.17305124263493,
+  "fechaCreacion" : {
+    "year" : 2013,
+    "month" : "JUNE",
+    "monthValue" : 6,
+    "dayOfMonth" : 9,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "dayOfWeek" : "SUNDAY",
+    "leapYear" : false,
+    "dayOfYear" : 160,
+    "era" : "CE"
+  }
+}

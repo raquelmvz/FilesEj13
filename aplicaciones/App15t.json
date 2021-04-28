@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 15,
+  "nombre" : "App15t",
+  "descripcion" : "Descripcion numero 2",
+  "tamanioKb" : 606.2678812523945,
+  "fechaCreacion" : {
+    "year" : 2010,
+    "month" : "MARCH",
+    "monthValue" : 3,
+    "dayOfMonth" : 2,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "dayOfWeek" : "TUESDAY",
+    "leapYear" : false,
+    "dayOfYear" : 61,
+    "era" : "CE"
+  }
+}

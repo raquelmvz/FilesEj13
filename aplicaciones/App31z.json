@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 31,
+  "nombre" : "App31z",
+  "descripcion" : "Descripcion numero 2",
+  "tamanioKb" : 642.9444268146539,
+  "fechaCreacion" : {
+    "year" : 1994,
+    "month" : "OCTOBER",
+    "monthValue" : 10,
+    "dayOfMonth" : 22,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "dayOfWeek" : "SATURDAY",
+    "leapYear" : false,
+    "dayOfYear" : 295,
+    "era" : "CE"
+  }
+}

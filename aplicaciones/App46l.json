@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 46,
+  "nombre" : "App46l",
+  "descripcion" : "Descripcion numero 3",
+  "tamanioKb" : 373.87337798025885,
+  "fechaCreacion" : {
+    "year" : 1977,
+    "month" : "JULY",
+    "monthValue" : 7,
+    "dayOfMonth" : 4,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "dayOfWeek" : "MONDAY",
+    "leapYear" : false,
+    "dayOfYear" : 185,
+    "era" : "CE"
+  }
+}

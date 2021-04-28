@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 6,
+  "nombre" : "App6h",
+  "descripcion" : "Descripcion numero 4",
+  "tamanioKb" : 767.3498613828615,
+  "fechaCreacion" : {
+    "year" : 2012,
+    "month" : "FEBRUARY",
+    "monthValue" : 2,
+    "dayOfMonth" : 11,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "dayOfWeek" : "SATURDAY",
+    "leapYear" : true,
+    "dayOfYear" : 42,
+    "era" : "CE"
+  }
+}

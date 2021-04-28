@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 0,
+  "nombre" : "App0a",
+  "descripcion" : "Descripcion numero 6",
+  "tamanioKb" : 374.49305461189897,
+  "fechaCreacion" : {
+    "year" : 1983,
+    "month" : "DECEMBER",
+    "monthValue" : 12,
+    "dayOfMonth" : 27,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "dayOfWeek" : "TUESDAY",
+    "leapYear" : false,
+    "dayOfYear" : 361,
+    "era" : "CE"
+  }
+}

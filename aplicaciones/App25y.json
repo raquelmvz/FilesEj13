@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 25,
+  "nombre" : "App25y",
+  "descripcion" : "Descripcion numero 9",
+  "tamanioKb" : 592.9986883843652,
+  "fechaCreacion" : {
+    "year" : 1972,
+    "month" : "JUNE",
+    "monthValue" : 6,
+    "dayOfMonth" : 26,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "dayOfWeek" : "MONDAY",
+    "leapYear" : true,
+    "dayOfYear" : 178,
+    "era" : "CE"
+  }
+}

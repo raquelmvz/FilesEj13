@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 41,
+  "nombre" : "App41n",
+  "descripcion" : "Descripcion numero 7",
+  "tamanioKb" : 416.73599620737366,
+  "fechaCreacion" : {
+    "year" : 1971,
+    "month" : "SEPTEMBER",
+    "monthValue" : 9,
+    "dayOfMonth" : 19,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "dayOfWeek" : "SUNDAY",
+    "leapYear" : false,
+    "dayOfYear" : 262,
+    "era" : "CE"
+  }
+}

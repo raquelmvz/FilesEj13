@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 23,
+  "nombre" : "App23z",
+  "descripcion" : "Descripcion numero 1",
+  "tamanioKb" : 840.1900922444445,
+  "fechaCreacion" : {
+    "year" : 2005,
+    "month" : "MAY",
+    "monthValue" : 5,
+    "dayOfMonth" : 29,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "dayOfWeek" : "SUNDAY",
+    "leapYear" : false,
+    "dayOfYear" : 149,
+    "era" : "CE"
+  }
+}

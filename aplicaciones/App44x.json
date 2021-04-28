@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 44,
+  "nombre" : "App44x",
+  "descripcion" : "Descripcion numero 3",
+  "tamanioKb" : 425.72187718138525,
+  "fechaCreacion" : {
+    "year" : 1978,
+    "month" : "JUNE",
+    "monthValue" : 6,
+    "dayOfMonth" : 10,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "dayOfWeek" : "SATURDAY",
+    "leapYear" : false,
+    "dayOfYear" : 161,
+    "era" : "CE"
+  }
+}

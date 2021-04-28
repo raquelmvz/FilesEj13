@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 10,
+  "nombre" : "App10i",
+  "descripcion" : "Descripcion numero 8",
+  "tamanioKb" : 784.8745300829951,
+  "fechaCreacion" : {
+    "year" : 2017,
+    "month" : "APRIL",
+    "monthValue" : 4,
+    "dayOfMonth" : 26,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "dayOfWeek" : "WEDNESDAY",
+    "leapYear" : false,
+    "dayOfYear" : 116,
+    "era" : "CE"
+  }
+}

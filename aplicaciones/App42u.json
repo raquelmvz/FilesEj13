@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 42,
+  "nombre" : "App42u",
+  "descripcion" : "Descripcion numero 9",
+  "tamanioKb" : 855.4254809094874,
+  "fechaCreacion" : {
+    "year" : 1990,
+    "month" : "JUNE",
+    "monthValue" : 6,
+    "dayOfMonth" : 25,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "dayOfWeek" : "MONDAY",
+    "leapYear" : false,
+    "dayOfYear" : 176,
+    "era" : "CE"
+  }
+}

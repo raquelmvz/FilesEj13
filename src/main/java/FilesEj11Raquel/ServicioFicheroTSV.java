@@ -29,17 +29,18 @@ public class ServicioFicheroTSV {
 
     }
 
-//    public static void creaDirectorio(String nombreDirectorio) {
-//        Path directory = Paths.get("./" + nombreDirectorio);
-//
-//        try {
-//            Files.createDirectory(directory);
-//        } catch (IOException e) {
-//            System.out.println("Problema creando el directorio.");
-//            System.out.println(e.toString());
-//
-//        }
-//    }
+    public static void creaDirectorio(String nombreDirectorio) {
+        Path directory = Paths.get("./" + nombreDirectorio);
+
+        try {
+            Files.createDirectory(directory);
+        } catch (IOException e) {
+            System.out.println("Problema creando el directorio.");
+            System.out.println(e.toString());
+
+        }
+    }
+
     private static void creaFicheroVacio(String ruta) {
 
         //Path file = Paths.get(ruta, "/" + nombreFichero + ".tsv");
@@ -59,7 +60,7 @@ public class ServicioFicheroTSV {
 
         String idFichero = ruta;//ruta del fichero
 
-        try (BufferedWriter flujo = new BufferedWriter(new FileWriter(idFichero))) {
+        try ( BufferedWriter flujo = new BufferedWriter(new FileWriter(idFichero))) {
 
             flujo.write("CODIGO UNICO\tNOMBRE\tDESCRIPCION\tTAMAÑO KB\tFECHA CREACION");
             flujo.newLine();

@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 34,
+  "nombre" : "App34m",
+  "descripcion" : "Descripcion numero 3",
+  "tamanioKb" : 232.85504641886732,
+  "fechaCreacion" : {
+    "year" : 1997,
+    "month" : "JANUARY",
+    "monthValue" : 1,
+    "dayOfMonth" : 3,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "dayOfWeek" : "FRIDAY",
+    "leapYear" : false,
+    "dayOfYear" : 3,
+    "era" : "CE"
+  }
+}

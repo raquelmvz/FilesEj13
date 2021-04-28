@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 39,
+  "nombre" : "App39{",
+  "descripcion" : "Descripcion numero 4",
+  "tamanioKb" : 934.856392353105,
+  "fechaCreacion" : {
+    "year" : 2011,
+    "month" : "FEBRUARY",
+    "monthValue" : 2,
+    "dayOfMonth" : 15,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "dayOfWeek" : "TUESDAY",
+    "leapYear" : false,
+    "dayOfYear" : 46,
+    "era" : "CE"
+  }
+}

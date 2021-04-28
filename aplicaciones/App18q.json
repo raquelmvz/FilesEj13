@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 18,
+  "nombre" : "App18q",
+  "descripcion" : "Descripcion numero 8",
+  "tamanioKb" : 772.768065984223,
+  "fechaCreacion" : {
+    "year" : 2008,
+    "month" : "NOVEMBER",
+    "monthValue" : 11,
+    "dayOfMonth" : 29,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "dayOfWeek" : "SATURDAY",
+    "leapYear" : true,
+    "dayOfYear" : 334,
+    "era" : "CE"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 5,
+  "nombre" : "App5y",
+  "descripcion" : "Descripcion numero 5",
+  "tamanioKb" : 124.61415663783481,
+  "fechaCreacion" : {
+    "year" : 1979,
+    "month" : "JUNE",
+    "monthValue" : 6,
+    "dayOfMonth" : 11,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "dayOfWeek" : "MONDAY",
+    "leapYear" : false,
+    "dayOfYear" : 162,
+    "era" : "CE"
+  }
+}

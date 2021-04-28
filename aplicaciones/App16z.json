@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 16,
+  "nombre" : "App16z",
+  "descripcion" : "Descripcion numero 7",
+  "tamanioKb" : 917.248841260742,
+  "fechaCreacion" : {
+    "year" : 2006,
+    "month" : "JUNE",
+    "monthValue" : 6,
+    "dayOfMonth" : 7,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "dayOfWeek" : "WEDNESDAY",
+    "leapYear" : false,
+    "dayOfYear" : 158,
+    "era" : "CE"
+  }
+}

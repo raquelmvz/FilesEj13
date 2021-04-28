@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 12,
+  "nombre" : "App12n",
+  "descripcion" : "Descripcion numero 9",
+  "tamanioKb" : 407.19282986844433,
+  "fechaCreacion" : {
+    "year" : 1975,
+    "month" : "SEPTEMBER",
+    "monthValue" : 9,
+    "dayOfMonth" : 13,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "dayOfWeek" : "SATURDAY",
+    "leapYear" : false,
+    "dayOfYear" : 256,
+    "era" : "CE"
+  }
+}

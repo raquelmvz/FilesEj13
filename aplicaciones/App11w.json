@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 11,
+  "nombre" : "App11w",
+  "descripcion" : "Descripcion numero 9",
+  "tamanioKb" : 579.4770441343942,
+  "fechaCreacion" : {
+    "year" : 1974,
+    "month" : "AUGUST",
+    "monthValue" : 8,
+    "dayOfMonth" : 2,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "dayOfWeek" : "FRIDAY",
+    "leapYear" : false,
+    "dayOfYear" : 214,
+    "era" : "CE"
+  }
+}
