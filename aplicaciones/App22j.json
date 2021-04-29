@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 22,
+  "nombre" : "App22j",
+  "descripcion" : "Descripcion numero 7",
+  "tamanioKb" : 476.8455671628361,
+  "fechaCreacion" : {
+    "year" : 2015,
+    "month" : "JUNE",
+    "monthValue" : 6,
+    "dayOfMonth" : 17,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 168,
+    "dayOfWeek" : "WEDNESDAY",
+    "leapYear" : false
+  }
+}

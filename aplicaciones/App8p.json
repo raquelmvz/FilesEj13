@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 8,
+  "nombre" : "App8p",
+  "descripcion" : "Descripcion numero 5",
+  "tamanioKb" : 743.524608929972,
+  "fechaCreacion" : {
+    "year" : 1978,
+    "month" : "FEBRUARY",
+    "monthValue" : 2,
+    "dayOfMonth" : 26,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 57,
+    "dayOfWeek" : "SUNDAY",
+    "leapYear" : false
+  }
+}

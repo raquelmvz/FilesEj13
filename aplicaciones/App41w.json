@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 41,
+  "nombre" : "App41w",
+  "descripcion" : "Descripcion numero 7",
+  "tamanioKb" : 929.1851364285957,
+  "fechaCreacion" : {
+    "year" : 1973,
+    "month" : "MARCH",
+    "monthValue" : 3,
+    "dayOfMonth" : 24,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 83,
+    "dayOfWeek" : "SATURDAY",
+    "leapYear" : false
+  }
+}

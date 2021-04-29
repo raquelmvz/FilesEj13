@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 10,
+  "nombre" : "App10s",
+  "descripcion" : "Descripcion numero 6",
+  "tamanioKb" : 409.44362385283813,
+  "fechaCreacion" : {
+    "year" : 2014,
+    "month" : "JANUARY",
+    "monthValue" : 1,
+    "dayOfMonth" : 18,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 18,
+    "dayOfWeek" : "SATURDAY",
+    "leapYear" : false
+  }
+}

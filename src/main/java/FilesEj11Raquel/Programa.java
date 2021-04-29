@@ -8,19 +8,21 @@ package FilesEj11Raquel;
 import static FilesEj11Raquel.ServicioFicheroJSON.creaArchivoJSON;
 import static FilesEj11Raquel.ServicioFicheroTSV.creaArchivoTSV;
 import static FilesEj11Raquel.ServicioFicheroTSV.creaDirectorio;
+import static FilesEj11Raquel.ServicioFicheroXML.creaArchivoXML;
 import java.io.IOException;
 import java.util.ArrayList;
+import javax.xml.bind.JAXBException;
 
 /**
  *
  * @author raque
  */
 public class Programa {
-
-    public static void main(String[] args) throws IOException {
-
+    
+    public static void main(String[] args) throws IOException, JAXBException {
+        
         ArrayList<App> listaApps = new ArrayList<>();
-
+        
         for (int i = 0; i < 50; i++) {
             listaApps.add(App.generaObjetoAppAleatorio());
         }
@@ -42,6 +44,9 @@ public class Programa {
         for (int i = 0; i < listaApps.size(); i++) {
             creaArchivoJSON("./aplicaciones/" + listaApps.get(i).getNombre() + ".json", listaApps.get(i));
         }
-    }
 
+        //archivo xml
+        creaArchivoXML("./appsxml/aplicaciones.xml", listaApps);
+    }
+    
 }

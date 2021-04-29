@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 13,
+  "nombre" : "App13e",
+  "descripcion" : "Descripcion numero 10",
+  "tamanioKb" : 523.8295878033689,
+  "fechaCreacion" : {
+    "year" : 1995,
+    "month" : "NOVEMBER",
+    "monthValue" : 11,
+    "dayOfMonth" : 24,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 328,
+    "dayOfWeek" : "FRIDAY",
+    "leapYear" : false
+  }
+}

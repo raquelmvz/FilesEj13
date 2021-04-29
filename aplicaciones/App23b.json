@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 23,
+  "nombre" : "App23b",
+  "descripcion" : "Descripcion numero 3",
+  "tamanioKb" : 188.6910702164124,
+  "fechaCreacion" : {
+    "year" : 2008,
+    "month" : "JULY",
+    "monthValue" : 7,
+    "dayOfMonth" : 26,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 208,
+    "dayOfWeek" : "SATURDAY",
+    "leapYear" : true
+  }
+}

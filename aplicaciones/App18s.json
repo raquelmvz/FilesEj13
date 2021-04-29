@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 18,
+  "nombre" : "App18s",
+  "descripcion" : "Descripcion numero 10",
+  "tamanioKb" : 643.3652208291936,
+  "fechaCreacion" : {
+    "year" : 1983,
+    "month" : "JUNE",
+    "monthValue" : 6,
+    "dayOfMonth" : 4,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 155,
+    "dayOfWeek" : "SATURDAY",
+    "leapYear" : false
+  }
+}

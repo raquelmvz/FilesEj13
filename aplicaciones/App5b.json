@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 5,
+  "nombre" : "App5b",
+  "descripcion" : "Descripcion numero 9",
+  "tamanioKb" : 693.7486324617801,
+  "fechaCreacion" : {
+    "year" : 1992,
+    "month" : "OCTOBER",
+    "monthValue" : 10,
+    "dayOfMonth" : 19,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 293,
+    "dayOfWeek" : "MONDAY",
+    "leapYear" : true
+  }
+}

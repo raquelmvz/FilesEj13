@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 43,
+  "nombre" : "App43h",
+  "descripcion" : "Descripcion numero 1",
+  "tamanioKb" : 1016.6606445234456,
+  "fechaCreacion" : {
+    "year" : 1995,
+    "month" : "NOVEMBER",
+    "monthValue" : 11,
+    "dayOfMonth" : 15,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 319,
+    "dayOfWeek" : "WEDNESDAY",
+    "leapYear" : false
+  }
+}

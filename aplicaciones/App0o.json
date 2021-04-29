@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 0,
+  "nombre" : "App0o",
+  "descripcion" : "Descripcion numero 5",
+  "tamanioKb" : 971.2195460680215,
+  "fechaCreacion" : {
+    "year" : 2004,
+    "month" : "APRIL",
+    "monthValue" : 4,
+    "dayOfMonth" : 25,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 116,
+    "dayOfWeek" : "SUNDAY",
+    "leapYear" : true
+  }
+}

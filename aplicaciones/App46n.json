@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 46,
+  "nombre" : "App46n",
+  "descripcion" : "Descripcion numero 4",
+  "tamanioKb" : 781.6411930251794,
+  "fechaCreacion" : {
+    "year" : 1990,
+    "month" : "FEBRUARY",
+    "monthValue" : 2,
+    "dayOfMonth" : 28,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 59,
+    "dayOfWeek" : "WEDNESDAY",
+    "leapYear" : false
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 21,
+  "nombre" : "App21a",
+  "descripcion" : "Descripcion numero 1",
+  "tamanioKb" : 931.8525321529576,
+  "fechaCreacion" : {
+    "year" : 2016,
+    "month" : "FEBRUARY",
+    "monthValue" : 2,
+    "dayOfMonth" : 5,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 36,
+    "dayOfWeek" : "FRIDAY",
+    "leapYear" : true
+  }
+}

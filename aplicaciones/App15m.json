@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 15,
+  "nombre" : "App15m",
+  "descripcion" : "Descripcion numero 6",
+  "tamanioKb" : 1003.8282767329973,
+  "fechaCreacion" : {
+    "year" : 1980,
+    "month" : "NOVEMBER",
+    "monthValue" : 11,
+    "dayOfMonth" : 13,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 318,
+    "dayOfWeek" : "THURSDAY",
+    "leapYear" : true
+  }
+}

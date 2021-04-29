@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 35,
+  "nombre" : "App35o",
+  "descripcion" : "Descripcion numero 4",
+  "tamanioKb" : 941.2712525907218,
+  "fechaCreacion" : {
+    "year" : 2009,
+    "month" : "APRIL",
+    "monthValue" : 4,
+    "dayOfMonth" : 16,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 106,
+    "dayOfWeek" : "THURSDAY",
+    "leapYear" : false
+  }
+}

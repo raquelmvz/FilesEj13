@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 17,
+  "nombre" : "App17m",
+  "descripcion" : "Descripcion numero 3",
+  "tamanioKb" : 965.1100184688152,
+  "fechaCreacion" : {
+    "year" : 1974,
+    "month" : "NOVEMBER",
+    "monthValue" : 11,
+    "dayOfMonth" : 8,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 312,
+    "dayOfWeek" : "FRIDAY",
+    "leapYear" : false
+  }
+}

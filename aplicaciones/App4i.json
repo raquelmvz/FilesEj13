@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 4,
+  "nombre" : "App4i",
+  "descripcion" : "Descripcion numero 9",
+  "tamanioKb" : 956.8866847925062,
+  "fechaCreacion" : {
+    "year" : 1975,
+    "month" : "JUNE",
+    "monthValue" : 6,
+    "dayOfMonth" : 16,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 167,
+    "dayOfWeek" : "MONDAY",
+    "leapYear" : false
+  }
+}

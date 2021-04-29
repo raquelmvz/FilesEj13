@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 34,
+  "nombre" : "App34k",
+  "descripcion" : "Descripcion numero 6",
+  "tamanioKb" : 309.3507029192915,
+  "fechaCreacion" : {
+    "year" : 2018,
+    "month" : "APRIL",
+    "monthValue" : 4,
+    "dayOfMonth" : 27,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 117,
+    "dayOfWeek" : "FRIDAY",
+    "leapYear" : false
+  }
+}

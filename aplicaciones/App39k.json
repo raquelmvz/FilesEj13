@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 39,
+  "nombre" : "App39k",
+  "descripcion" : "Descripcion numero 6",
+  "tamanioKb" : 565.6193125327625,
+  "fechaCreacion" : {
+    "year" : 2009,
+    "month" : "JULY",
+    "monthValue" : 7,
+    "dayOfMonth" : 18,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 199,
+    "dayOfWeek" : "SATURDAY",
+    "leapYear" : false
+  }
+}

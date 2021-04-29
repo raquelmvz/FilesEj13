@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 3,
+  "nombre" : "App3i",
+  "descripcion" : "Descripcion numero 5",
+  "tamanioKb" : 549.9566480884475,
+  "fechaCreacion" : {
+    "year" : 1979,
+    "month" : "JUNE",
+    "monthValue" : 6,
+    "dayOfMonth" : 22,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 173,
+    "dayOfWeek" : "FRIDAY",
+    "leapYear" : false
+  }
+}
