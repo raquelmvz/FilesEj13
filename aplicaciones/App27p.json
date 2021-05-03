@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 27,
+  "nombre" : "App27p",
+  "descripcion" : "Descripcion numero 5",
+  "tamanioKb" : 471.1607043343025,
+  "fechaCreacion" : {
+    "year" : 2010,
+    "month" : "MARCH",
+    "monthValue" : 3,
+    "dayOfMonth" : 5,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 64,
+    "dayOfWeek" : "FRIDAY",
+    "leapYear" : false
+  }
+}

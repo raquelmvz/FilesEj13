@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 12,
+  "nombre" : "App12x",
+  "descripcion" : "Descripcion numero 3",
+  "tamanioKb" : 790.5873515372247,
+  "fechaCreacion" : {
+    "year" : 1981,
+    "month" : "DECEMBER",
+    "monthValue" : 12,
+    "dayOfMonth" : 1,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 335,
+    "dayOfWeek" : "TUESDAY",
+    "leapYear" : false
+  }
+}

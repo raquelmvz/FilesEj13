@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 14,
+  "nombre" : "App14x",
+  "descripcion" : "Descripcion numero 4",
+  "tamanioKb" : 100.18386700089903,
+  "fechaCreacion" : {
+    "year" : 1994,
+    "month" : "FEBRUARY",
+    "monthValue" : 2,
+    "dayOfMonth" : 21,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 52,
+    "dayOfWeek" : "MONDAY",
+    "leapYear" : false
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 38,
+  "nombre" : "App38j",
+  "descripcion" : "Descripcion numero 3",
+  "tamanioKb" : 657.3830065608448,
+  "fechaCreacion" : {
+    "year" : 1991,
+    "month" : "AUGUST",
+    "monthValue" : 8,
+    "dayOfMonth" : 24,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 236,
+    "dayOfWeek" : "SATURDAY",
+    "leapYear" : false
+  }
+}

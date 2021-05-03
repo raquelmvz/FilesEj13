@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 19,
+  "nombre" : "App19x",
+  "descripcion" : "Descripcion numero 3",
+  "tamanioKb" : 515.9665125513727,
+  "fechaCreacion" : {
+    "year" : 1997,
+    "month" : "DECEMBER",
+    "monthValue" : 12,
+    "dayOfMonth" : 23,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 357,
+    "dayOfWeek" : "TUESDAY",
+    "leapYear" : false
+  }
+}

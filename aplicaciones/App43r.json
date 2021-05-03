@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 43,
+  "nombre" : "App43r",
+  "descripcion" : "Descripcion numero 10",
+  "tamanioKb" : 405.1750068174044,
+  "fechaCreacion" : {
+    "year" : 1972,
+    "month" : "FEBRUARY",
+    "monthValue" : 2,
+    "dayOfMonth" : 18,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 49,
+    "dayOfWeek" : "FRIDAY",
+    "leapYear" : true
+  }
+}

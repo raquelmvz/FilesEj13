@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 41,
+  "nombre" : "App41o",
+  "descripcion" : "Descripcion numero 7",
+  "tamanioKb" : 286.2397459642617,
+  "fechaCreacion" : {
+    "year" : 1976,
+    "month" : "FEBRUARY",
+    "monthValue" : 2,
+    "dayOfMonth" : 17,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 48,
+    "dayOfWeek" : "TUESDAY",
+    "leapYear" : true
+  }
+}

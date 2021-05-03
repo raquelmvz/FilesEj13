@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 2,
+  "nombre" : "App2e",
+  "descripcion" : "Descripcion numero 2",
+  "tamanioKb" : 392.57736032078896,
+  "fechaCreacion" : {
+    "year" : 2009,
+    "month" : "SEPTEMBER",
+    "monthValue" : 9,
+    "dayOfMonth" : 25,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 268,
+    "dayOfWeek" : "FRIDAY",
+    "leapYear" : false
+  }
+}

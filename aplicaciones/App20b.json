@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 20,
+  "nombre" : "App20b",
+  "descripcion" : "Descripcion numero 1",
+  "tamanioKb" : 209.8391932120212,
+  "fechaCreacion" : {
+    "year" : 1993,
+    "month" : "FEBRUARY",
+    "monthValue" : 2,
+    "dayOfMonth" : 1,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 32,
+    "dayOfWeek" : "MONDAY",
+    "leapYear" : false
+  }
+}

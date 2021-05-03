@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 35,
+  "nombre" : "App35t",
+  "descripcion" : "Descripcion numero 10",
+  "tamanioKb" : 540.8574872058997,
+  "fechaCreacion" : {
+    "year" : 2011,
+    "month" : "DECEMBER",
+    "monthValue" : 12,
+    "dayOfMonth" : 26,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 360,
+    "dayOfWeek" : "MONDAY",
+    "leapYear" : false
+  }
+}

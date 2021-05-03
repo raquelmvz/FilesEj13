@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 9,
+  "nombre" : "App9u",
+  "descripcion" : "Descripcion numero 2",
+  "tamanioKb" : 292.8719747138306,
+  "fechaCreacion" : {
+    "year" : 2020,
+    "month" : "MAY",
+    "monthValue" : 5,
+    "dayOfMonth" : 4,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 125,
+    "dayOfWeek" : "MONDAY",
+    "leapYear" : true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 4,
+  "nombre" : "App4w",
+  "descripcion" : "Descripcion numero 4",
+  "tamanioKb" : 670.3404508622929,
+  "fechaCreacion" : {
+    "year" : 1976,
+    "month" : "AUGUST",
+    "monthValue" : 8,
+    "dayOfMonth" : 14,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 227,
+    "dayOfWeek" : "SATURDAY",
+    "leapYear" : true
+  }
+}

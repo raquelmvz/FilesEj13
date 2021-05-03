@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 30,
+  "nombre" : "App30u",
+  "descripcion" : "Descripcion numero 7",
+  "tamanioKb" : 530.7068475553738,
+  "fechaCreacion" : {
+    "year" : 1999,
+    "month" : "FEBRUARY",
+    "monthValue" : 2,
+    "dayOfMonth" : 8,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 39,
+    "dayOfWeek" : "MONDAY",
+    "leapYear" : false
+  }
+}

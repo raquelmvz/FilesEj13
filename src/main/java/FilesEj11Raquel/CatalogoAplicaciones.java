@@ -16,6 +16,9 @@ import javax.xml.bind.annotation.XmlRootElement;
  *
  * @author raquel
  */
+
+/* Esta clase contiene una lista de objetos de tipo App */
+// Etiquetas para el xml
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
 public class CatalogoAplicaciones {

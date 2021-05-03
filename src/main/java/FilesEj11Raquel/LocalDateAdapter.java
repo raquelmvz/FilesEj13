@@ -12,14 +12,14 @@ import javax.xml.bind.annotation.adapters.XmlAdapter;
  *
  * @author raque
  */
-// Clase XmlAdapter permite mapear tipos de datos que JAXB no sabe como gestionar a la hora de 
-// realizar las operaciones de marshal y unmarshal
 public class LocalDateAdapter extends XmlAdapter<String, LocalDate> {
 
+    @Override
     public LocalDate unmarshal(String v) throws Exception {
         return LocalDate.parse(v);
     }
 
+    @Override
     public String marshal(LocalDate v) throws Exception {
         return v.toString();
     }

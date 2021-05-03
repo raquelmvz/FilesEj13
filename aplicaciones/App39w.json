@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 39,
+  "nombre" : "App39w",
+  "descripcion" : "Descripcion numero 10",
+  "tamanioKb" : 1022.8880658511302,
+  "fechaCreacion" : {
+    "year" : 1987,
+    "month" : "JANUARY",
+    "monthValue" : 1,
+    "dayOfMonth" : 28,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 28,
+    "dayOfWeek" : "WEDNESDAY",
+    "leapYear" : false
+  }
+}

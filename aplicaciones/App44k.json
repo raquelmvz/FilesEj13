@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 44,
+  "nombre" : "App44k",
+  "descripcion" : "Descripcion numero 10",
+  "tamanioKb" : 605.1506847968609,
+  "fechaCreacion" : {
+    "year" : 1991,
+    "month" : "NOVEMBER",
+    "monthValue" : 11,
+    "dayOfMonth" : 19,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 323,
+    "dayOfWeek" : "TUESDAY",
+    "leapYear" : false
+  }
+}

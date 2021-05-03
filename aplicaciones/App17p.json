@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 17,
+  "nombre" : "App17p",
+  "descripcion" : "Descripcion numero 6",
+  "tamanioKb" : 100.35878069632693,
+  "fechaCreacion" : {
+    "year" : 1989,
+    "month" : "JULY",
+    "monthValue" : 7,
+    "dayOfMonth" : 16,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 197,
+    "dayOfWeek" : "SUNDAY",
+    "leapYear" : false
+  }
+}

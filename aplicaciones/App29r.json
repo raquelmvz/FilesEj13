@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 29,
+  "nombre" : "App29r",
+  "descripcion" : "Descripcion numero 8",
+  "tamanioKb" : 797.9234248499805,
+  "fechaCreacion" : {
+    "year" : 1973,
+    "month" : "SEPTEMBER",
+    "monthValue" : 9,
+    "dayOfMonth" : 18,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 261,
+    "dayOfWeek" : "TUESDAY",
+    "leapYear" : false
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 46,
+  "nombre" : "App46k",
+  "descripcion" : "Descripcion numero 6",
+  "tamanioKb" : 553.2216200292371,
+  "fechaCreacion" : {
+    "year" : 1985,
+    "month" : "APRIL",
+    "monthValue" : 4,
+    "dayOfMonth" : 5,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 95,
+    "dayOfWeek" : "FRIDAY",
+    "leapYear" : false
+  }
+}
