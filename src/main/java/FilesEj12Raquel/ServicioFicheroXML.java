@@ -3,15 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package FilesEj11Raquel;
+package FilesEj12Raquel;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
+import javax.xml.bind.Unmarshaller;
 
 /**
  *
@@ -63,5 +65,29 @@ public class ServicioFicheroXML { //corregir lo de las fechas
             System.out.println("Error");
         }
 
+    }
+
+    /* Metodo que permite leer el fichero XML */
+    public static void leeArchivoXML(String rutaArchivo) {
+
+        try {
+
+            // Crea el contexto JAXB 
+            JAXBContext contexto = JAXBContext.newInstance(CatalogoAplicaciones.class);
+            // Crea el objeto Unmarshaller
+            Unmarshaller um = contexto.createUnmarshaller();
+
+            // Llama al método de unmarshalling
+            CatalogoAplicaciones catalogo = (CatalogoAplicaciones) um.unmarshal(new File(rutaArchivo));
+
+            ArrayList<App> listaApps = catalogo.getListaAplicaciones();
+
+            listaApps.forEach(System.out::println);
+
+        } catch (JAXBException ex) {
+
+            Logger.getLogger(ServicioFicheroXML.class.getName()).log(Level.SEVERE, null, ex);
+
+        }
     }
 }
