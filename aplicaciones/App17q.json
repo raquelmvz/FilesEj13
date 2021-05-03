@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 17,
+  "nombre" : "App17q",
+  "descripcion" : "Descripcion numero 10",
+  "tamanioKb" : 421.02990730521753,
+  "fechaCreacion" : {
+    "year" : 2007,
+    "month" : "MARCH",
+    "monthValue" : 3,
+    "dayOfMonth" : 5,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 64,
+    "dayOfWeek" : "MONDAY",
+    "leapYear" : false
+  }
+}

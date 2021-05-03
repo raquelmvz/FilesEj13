@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 23,
+  "nombre" : "App23k",
+  "descripcion" : "Descripcion numero 8",
+  "tamanioKb" : 889.740043200925,
+  "fechaCreacion" : {
+    "year" : 1979,
+    "month" : "JULY",
+    "monthValue" : 7,
+    "dayOfMonth" : 12,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 193,
+    "dayOfWeek" : "THURSDAY",
+    "leapYear" : false
+  }
+}

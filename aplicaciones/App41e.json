@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 41,
+  "nombre" : "App41e",
+  "descripcion" : "Descripcion numero 4",
+  "tamanioKb" : 1013.7158313608044,
+  "fechaCreacion" : {
+    "year" : 1990,
+    "month" : "AUGUST",
+    "monthValue" : 8,
+    "dayOfMonth" : 18,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 230,
+    "dayOfWeek" : "SATURDAY",
+    "leapYear" : false
+  }
+}

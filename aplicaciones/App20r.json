@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 20,
+  "nombre" : "App20r",
+  "descripcion" : "Descripcion numero 10",
+  "tamanioKb" : 991.7995604996814,
+  "fechaCreacion" : {
+    "year" : 2012,
+    "month" : "JUNE",
+    "monthValue" : 6,
+    "dayOfMonth" : 13,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 165,
+    "dayOfWeek" : "WEDNESDAY",
+    "leapYear" : true
+  }
+}

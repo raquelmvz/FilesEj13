@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 1,
+  "nombre" : "App1z",
+  "descripcion" : "Descripcion numero 1",
+  "tamanioKb" : 922.2943513271955,
+  "fechaCreacion" : {
+    "year" : 2017,
+    "month" : "JANUARY",
+    "monthValue" : 1,
+    "dayOfMonth" : 21,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 21,
+    "dayOfWeek" : "SATURDAY",
+    "leapYear" : false
+  }
+}

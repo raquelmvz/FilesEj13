@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 30,
+  "nombre" : "App30y",
+  "descripcion" : "Descripcion numero 5",
+  "tamanioKb" : 908.9159275775309,
+  "fechaCreacion" : {
+    "year" : 1982,
+    "month" : "JUNE",
+    "monthValue" : 6,
+    "dayOfMonth" : 26,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 177,
+    "dayOfWeek" : "SATURDAY",
+    "leapYear" : false
+  }
+}

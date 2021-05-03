@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 40,
+  "nombre" : "App40c",
+  "descripcion" : "Descripcion numero 8",
+  "tamanioKb" : 438.2913034671613,
+  "fechaCreacion" : {
+    "year" : 1981,
+    "month" : "AUGUST",
+    "monthValue" : 8,
+    "dayOfMonth" : 31,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 243,
+    "dayOfWeek" : "MONDAY",
+    "leapYear" : false
+  }
+}

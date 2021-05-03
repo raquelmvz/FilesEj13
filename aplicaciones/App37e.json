@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 37,
+  "nombre" : "App37e",
+  "descripcion" : "Descripcion numero 4",
+  "tamanioKb" : 540.2199840224021,
+  "fechaCreacion" : {
+    "year" : 2003,
+    "month" : "APRIL",
+    "monthValue" : 4,
+    "dayOfMonth" : 26,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 116,
+    "dayOfWeek" : "SATURDAY",
+    "leapYear" : false
+  }
+}

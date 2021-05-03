@@ -12,12 +12,10 @@ import static FilesEj13Raquel.ServicioFicheroXML.leeArchivoXML;
  * @author raque
  */
 public class PruebaEj12 {
-    
+
     public static void main(String[] args) {
         //lectura del fichero xml
         leeArchivoXML("./appsxml/aplicaciones.xml");
     }
-    
-    
-    
+
 }

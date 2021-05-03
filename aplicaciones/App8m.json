@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 8,
+  "nombre" : "App8m",
+  "descripcion" : "Descripcion numero 7",
+  "tamanioKb" : 331.786060146502,
+  "fechaCreacion" : {
+    "year" : 1999,
+    "month" : "MAY",
+    "monthValue" : 5,
+    "dayOfMonth" : 11,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 131,
+    "dayOfWeek" : "TUESDAY",
+    "leapYear" : false
+  }
+}

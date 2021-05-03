@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 36,
+  "nombre" : "App36v",
+  "descripcion" : "Descripcion numero 10",
+  "tamanioKb" : 459.98026226320553,
+  "fechaCreacion" : {
+    "year" : 2008,
+    "month" : "JUNE",
+    "monthValue" : 6,
+    "dayOfMonth" : 18,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 170,
+    "dayOfWeek" : "WEDNESDAY",
+    "leapYear" : true
+  }
+}

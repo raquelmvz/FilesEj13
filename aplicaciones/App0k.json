@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 0,
+  "nombre" : "App0k",
+  "descripcion" : "Descripcion numero 3",
+  "tamanioKb" : 402.65454191293475,
+  "fechaCreacion" : {
+    "year" : 2004,
+    "month" : "SEPTEMBER",
+    "monthValue" : 9,
+    "dayOfMonth" : 12,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 256,
+    "dayOfWeek" : "SUNDAY",
+    "leapYear" : true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 45,
+  "nombre" : "App45w",
+  "descripcion" : "Descripcion numero 7",
+  "tamanioKb" : 438.0161577271946,
+  "fechaCreacion" : {
+    "year" : 1979,
+    "month" : "FEBRUARY",
+    "monthValue" : 2,
+    "dayOfMonth" : 20,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 51,
+    "dayOfWeek" : "TUESDAY",
+    "leapYear" : false
+  }
+}

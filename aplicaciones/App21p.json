@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 21,
+  "nombre" : "App21p",
+  "descripcion" : "Descripcion numero 7",
+  "tamanioKb" : 915.7273687781411,
+  "fechaCreacion" : {
+    "year" : 1985,
+    "month" : "AUGUST",
+    "monthValue" : 8,
+    "dayOfMonth" : 1,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 213,
+    "dayOfWeek" : "THURSDAY",
+    "leapYear" : false
+  }
+}

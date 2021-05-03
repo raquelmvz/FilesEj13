@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 22,
+  "nombre" : "App22m",
+  "descripcion" : "Descripcion numero 8",
+  "tamanioKb" : 484.8466515406751,
+  "fechaCreacion" : {
+    "year" : 1988,
+    "month" : "JUNE",
+    "monthValue" : 6,
+    "dayOfMonth" : 20,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 172,
+    "dayOfWeek" : "MONDAY",
+    "leapYear" : true
+  }
+}

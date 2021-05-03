@@ -71,18 +71,4 @@ public class ServicioFicheroTSV {
 
     }
 
-    /* Metodo al que se le pasa una ruta y permite leer el archivo */
-    public static void listarDirectorio(String ruta) {
-
-        File f = new File(ruta);
-
-        if (f.exists()) {
-            File[] ficheros = f.listFiles();
-            for (File file2 : ficheros) {
-                System.out.println(file2.getName());
-            }
-        } else {
-            System.out.println("El directorio a listar no existe");
-        }
-    }
 }

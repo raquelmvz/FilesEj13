@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 2,
+  "nombre" : "App2w",
+  "descripcion" : "Descripcion numero 1",
+  "tamanioKb" : 718.7679392651851,
+  "fechaCreacion" : {
+    "year" : 1981,
+    "month" : "MAY",
+    "monthValue" : 5,
+    "dayOfMonth" : 25,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 145,
+    "dayOfWeek" : "MONDAY",
+    "leapYear" : false
+  }
+}

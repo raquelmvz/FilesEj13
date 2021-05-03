@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 46,
+  "nombre" : "App46r",
+  "descripcion" : "Descripcion numero 8",
+  "tamanioKb" : 224.17614570983915,
+  "fechaCreacion" : {
+    "year" : 2019,
+    "month" : "AUGUST",
+    "monthValue" : 8,
+    "dayOfMonth" : 19,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 231,
+    "dayOfWeek" : "MONDAY",
+    "leapYear" : false
+  }
+}

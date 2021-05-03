@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 39,
+  "nombre" : "App39n",
+  "descripcion" : "Descripcion numero 7",
+  "tamanioKb" : 648.193800896602,
+  "fechaCreacion" : {
+    "year" : 2013,
+    "month" : "OCTOBER",
+    "monthValue" : 10,
+    "dayOfMonth" : 13,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 286,
+    "dayOfWeek" : "SUNDAY",
+    "leapYear" : false
+  }
+}

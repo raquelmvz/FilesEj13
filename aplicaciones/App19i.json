@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 19,
+  "nombre" : "App19i",
+  "descripcion" : "Descripcion numero 3",
+  "tamanioKb" : 963.11748647694,
+  "fechaCreacion" : {
+    "year" : 1990,
+    "month" : "JANUARY",
+    "monthValue" : 1,
+    "dayOfMonth" : 9,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 9,
+    "dayOfWeek" : "TUESDAY",
+    "leapYear" : false
+  }
+}

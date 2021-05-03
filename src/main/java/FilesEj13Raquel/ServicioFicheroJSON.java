@@ -57,4 +57,54 @@ public class ServicioFicheroJSON {
 
     }
 
+    /* Metodo que recibe la ruta del fichero a leer y lee el fichero, 
+    devuelve una lista de aplicaciones */
+    public static ArrayList<App> leeFicheroJSONLista(String rutaArchivo) {
+
+        ArrayList<App> aplicaciones = new ArrayList<>();
+
+        try {
+
+            ObjectMapper mapeador = new ObjectMapper();
+
+            aplicaciones = mapeador.readValue(new File(rutaArchivo),
+                    mapeador.getTypeFactory().constructCollectionType(ArrayList.class, App.class));
+            System.out.println("---- Catálogo de aplicaciones ----");
+            for (App aplic : aplicaciones) {
+                System.out.println(aplic);
+            }
+            System.out.println("---- Catálogo de aplicaciones ----");
+
+        } catch (IOException ex) {
+            Logger.getLogger(ServicioFicheroJSON.class.getName()).log(Level.SEVERE, null, ex);
+            System.out.println("Error");
+        }
+
+        return aplicaciones;
+
+    }
+
+    /* Metodo que recibe la ruta del fichero a leer y lee el fichero, 
+    devuelve un objeto tipo App */
+    public static App leeFicheroJSONApp(String rutaArchivo) {
+
+        App aplicacion = new App();
+
+        try {
+
+            ObjectMapper mapeador = new ObjectMapper();
+
+            aplicacion = mapeador.readValue(new File(rutaArchivo), mapeador.constructType(App.class));
+            System.out.println("---- Catálogo de aplicaciones ----");
+
+            aplicacion.toString();
+
+        } catch (IOException ex) {
+            Logger.getLogger(ServicioFicheroJSON.class.getName()).log(Level.SEVERE, null, ex);
+            System.out.println("Error");
+        }
+
+        return aplicacion;
+    }
+
 }

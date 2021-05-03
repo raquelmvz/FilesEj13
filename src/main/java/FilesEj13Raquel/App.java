@@ -5,6 +5,11 @@
  */
 package FilesEj13Raquel;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer;
+import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateSerializer;
 import java.time.LocalDate;
 import java.time.Year;
 import java.util.Objects;
@@ -30,6 +35,11 @@ public class App {
     private String nombre;
     private String descripcion;
     private double tamanioKb;
+
+    @JsonDeserialize(using = LocalDateDeserializer.class)
+    @JsonSerialize(using = LocalDateSerializer.class)
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd/MM/yyyy")
+
     // Anotacion xml para el formateo del tiempo
     @XmlJavaTypeAdapter(value = LocalDateAdapter.class)
     private LocalDate fechaCreacion;

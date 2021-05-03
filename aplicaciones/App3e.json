@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 3,
+  "nombre" : "App3e",
+  "descripcion" : "Descripcion numero 9",
+  "tamanioKb" : 762.3756708690855,
+  "fechaCreacion" : {
+    "year" : 1980,
+    "month" : "AUGUST",
+    "monthValue" : 8,
+    "dayOfMonth" : 15,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 228,
+    "dayOfWeek" : "FRIDAY",
+    "leapYear" : true
+  }
+}
