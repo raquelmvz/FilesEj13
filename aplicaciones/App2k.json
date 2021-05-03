@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 2,
+  "nombre" : "App2k",
+  "descripcion" : "Descripcion numero 8",
+  "tamanioKb" : 214.05595042513977,
+  "fechaCreacion" : {
+    "year" : 1981,
+    "month" : "FEBRUARY",
+    "monthValue" : 2,
+    "dayOfMonth" : 21,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "era" : "CE",
+    "dayOfYear" : 52,
+    "dayOfWeek" : "SATURDAY",
+    "leapYear" : false
+  }
+}

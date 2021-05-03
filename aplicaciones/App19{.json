@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 19,
+  "nombre" : "App19{",
+  "descripcion" : "Descripcion numero 10",
+  "tamanioKb" : 164.51932956699247,
+  "fechaCreacion" : {
+    "year" : 2000,
+    "month" : "DECEMBER",
+    "monthValue" : 12,
+    "dayOfMonth" : 14,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "era" : "CE",
+    "dayOfYear" : 349,
+    "dayOfWeek" : "THURSDAY",
+    "leapYear" : true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 32,
+  "nombre" : "App32v",
+  "descripcion" : "Descripcion numero 10",
+  "tamanioKb" : 342.48290633359244,
+  "fechaCreacion" : {
+    "year" : 1988,
+    "month" : "MAY",
+    "monthValue" : 5,
+    "dayOfMonth" : 15,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "era" : "CE",
+    "dayOfYear" : 136,
+    "dayOfWeek" : "SUNDAY",
+    "leapYear" : true
+  }
+}

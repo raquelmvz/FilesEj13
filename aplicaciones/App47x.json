@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 47,
+  "nombre" : "App47x",
+  "descripcion" : "Descripcion numero 5",
+  "tamanioKb" : 384.90336398706893,
+  "fechaCreacion" : {
+    "year" : 2006,
+    "month" : "OCTOBER",
+    "monthValue" : 10,
+    "dayOfMonth" : 4,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "era" : "CE",
+    "dayOfYear" : 277,
+    "dayOfWeek" : "WEDNESDAY",
+    "leapYear" : false
+  }
+}

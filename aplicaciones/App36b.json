@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 36,
+  "nombre" : "App36b",
+  "descripcion" : "Descripcion numero 2",
+  "tamanioKb" : 173.79849549996402,
+  "fechaCreacion" : {
+    "year" : 1970,
+    "month" : "DECEMBER",
+    "monthValue" : 12,
+    "dayOfMonth" : 5,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "era" : "CE",
+    "dayOfYear" : 339,
+    "dayOfWeek" : "SATURDAY",
+    "leapYear" : false
+  }
+}

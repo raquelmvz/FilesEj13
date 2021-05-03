@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 33,
+  "nombre" : "App33n",
+  "descripcion" : "Descripcion numero 3",
+  "tamanioKb" : 516.423101334679,
+  "fechaCreacion" : {
+    "year" : 1994,
+    "month" : "SEPTEMBER",
+    "monthValue" : 9,
+    "dayOfMonth" : 9,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "era" : "CE",
+    "dayOfYear" : 252,
+    "dayOfWeek" : "FRIDAY",
+    "leapYear" : false
+  }
+}

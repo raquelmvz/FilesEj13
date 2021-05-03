@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 7,
+  "nombre" : "App7p",
+  "descripcion" : "Descripcion numero 4",
+  "tamanioKb" : 430.31531321111885,
+  "fechaCreacion" : {
+    "year" : 2005,
+    "month" : "OCTOBER",
+    "monthValue" : 10,
+    "dayOfMonth" : 28,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "era" : "CE",
+    "dayOfYear" : 301,
+    "dayOfWeek" : "FRIDAY",
+    "leapYear" : false
+  }
+}

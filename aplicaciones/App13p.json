@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 13,
+  "nombre" : "App13p",
+  "descripcion" : "Descripcion numero 5",
+  "tamanioKb" : 819.6411250385498,
+  "fechaCreacion" : {
+    "year" : 2015,
+    "month" : "JUNE",
+    "monthValue" : 6,
+    "dayOfMonth" : 21,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "era" : "CE",
+    "dayOfYear" : 172,
+    "dayOfWeek" : "SUNDAY",
+    "leapYear" : false
+  }
+}

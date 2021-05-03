@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 31,
+  "nombre" : "App31e",
+  "descripcion" : "Descripcion numero 1",
+  "tamanioKb" : 350.7974265017512,
+  "fechaCreacion" : {
+    "year" : 2009,
+    "month" : "OCTOBER",
+    "monthValue" : 10,
+    "dayOfMonth" : 9,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "era" : "CE",
+    "dayOfYear" : 282,
+    "dayOfWeek" : "FRIDAY",
+    "leapYear" : false
+  }
+}

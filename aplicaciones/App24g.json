@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 24,
+  "nombre" : "App24g",
+  "descripcion" : "Descripcion numero 3",
+  "tamanioKb" : 992.2257731426012,
+  "fechaCreacion" : {
+    "year" : 1983,
+    "month" : "MARCH",
+    "monthValue" : 3,
+    "dayOfMonth" : 14,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "era" : "CE",
+    "dayOfYear" : 73,
+    "dayOfWeek" : "MONDAY",
+    "leapYear" : false
+  }
+}

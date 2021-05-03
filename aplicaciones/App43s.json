@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 43,
+  "nombre" : "App43s",
+  "descripcion" : "Descripcion numero 2",
+  "tamanioKb" : 892.4109861652929,
+  "fechaCreacion" : {
+    "year" : 2014,
+    "month" : "FEBRUARY",
+    "monthValue" : 2,
+    "dayOfMonth" : 19,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "era" : "CE",
+    "dayOfYear" : 50,
+    "dayOfWeek" : "WEDNESDAY",
+    "leapYear" : false
+  }
+}

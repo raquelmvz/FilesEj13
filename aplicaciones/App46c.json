@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 46,
+  "nombre" : "App46c",
+  "descripcion" : "Descripcion numero 7",
+  "tamanioKb" : 1005.2884742141986,
+  "fechaCreacion" : {
+    "year" : 1987,
+    "month" : "OCTOBER",
+    "monthValue" : 10,
+    "dayOfMonth" : 9,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "era" : "CE",
+    "dayOfYear" : 282,
+    "dayOfWeek" : "FRIDAY",
+    "leapYear" : false
+  }
+}

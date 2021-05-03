@@ -17,7 +17,7 @@ import javax.xml.bind.Marshaller;
  *
  * @author raquel
  */
-public class ServicioFicheroXML {
+public class ServicioFicheroXML { //corregir lo de las fechas
 
     public static void creaArchivoXML(String rutaArchivo, ArrayList<App> lista) throws JAXBException {
 

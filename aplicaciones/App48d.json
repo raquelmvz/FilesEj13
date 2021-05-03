@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 48,
+  "nombre" : "App48d",
+  "descripcion" : "Descripcion numero 1",
+  "tamanioKb" : 833.0915885751954,
+  "fechaCreacion" : {
+    "year" : 1992,
+    "month" : "OCTOBER",
+    "monthValue" : 10,
+    "dayOfMonth" : 1,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "era" : "CE",
+    "dayOfYear" : 275,
+    "dayOfWeek" : "THURSDAY",
+    "leapYear" : true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 27,
+  "nombre" : "App27y",
+  "descripcion" : "Descripcion numero 5",
+  "tamanioKb" : 648.9229840720216,
+  "fechaCreacion" : {
+    "year" : 2001,
+    "month" : "AUGUST",
+    "monthValue" : 8,
+    "dayOfMonth" : 17,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "era" : "CE",
+    "dayOfYear" : 229,
+    "dayOfWeek" : "FRIDAY",
+    "leapYear" : false
+  }
+}

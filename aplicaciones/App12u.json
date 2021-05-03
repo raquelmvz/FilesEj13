@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 12,
+  "nombre" : "App12u",
+  "descripcion" : "Descripcion numero 6",
+  "tamanioKb" : 230.40752484379135,
+  "fechaCreacion" : {
+    "year" : 1983,
+    "month" : "NOVEMBER",
+    "monthValue" : 11,
+    "dayOfMonth" : 12,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "era" : "CE",
+    "dayOfYear" : 316,
+    "dayOfWeek" : "SATURDAY",
+    "leapYear" : false
+  }
+}

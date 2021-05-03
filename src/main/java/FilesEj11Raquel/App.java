@@ -9,36 +9,40 @@ import java.time.LocalDate;
 import java.time.Year;
 import java.util.Objects;
 import java.util.Random;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 /**
  *
  * @author raquel
  */
+// Nombre de la etiqueta raiz
+// Anotacion @XmlRootElement
+@XmlRootElement(name = "app")
+// Definicion del elemento que usara JAXB durante el
+// procesamiento de datos --> @XmlAccessorType (por atributo)
+@XmlAccessorType(XmlAccessType.FIELD)
 public class App {
 
     private int codigoUnico;
     private String nombre;
     private String descripcion;
     private double tamanioKb;
+    // Anotacion xml para el formateo del tiempo
+    @XmlJavaTypeAdapter(value = LocalDateAdapter.class)
     private LocalDate fechaCreacion;
     private static int contadorInstancias = 0;
     private static Random random = new Random();
-    //quitar de aqui
-    private static final double TAMANIO_MIN_APP = 100.0;
-    private static final double TAMANIO_MAX_APP = 1024.0;
-    private static final int TAMANIO_STREAM = 1;
 
-    //constructores
+    /* Constructor por defecto */
     public App() {
-        this.codigoUnico = getContadorInstancias();
-        this.nombre = generaNombreAleatorio();
-        this.descripcion = generaDescripcionAleatoria();
-        this.tamanioKb = generaTamanioAleatorio();
-        this.fechaCreacion = generaFechaAleatoria();
         contadorInstancias++;
 
     }
 
+    /* Constructor parametrizado */
     public App(String nombre, String descripcion, double tamanioKb, LocalDate fechaCreacion) {
         this.codigoUnico = getContadorInstancias();
         this.nombre = nombre;
@@ -48,7 +52,7 @@ public class App {
         contadorInstancias++;
     }
 
-    //getters y setters
+    /* Getters y setters */
     public int getCodigoUnico() {
         return codigoUnico;
     }
@@ -93,15 +97,7 @@ public class App {
         return contadorInstancias;
     }
 
-    public static Random getRandom() {
-        return random;
-    }
-
-    public static void setRandom(Random random) {
-        App.random = random;
-    }
-
-    //to string y equals
+    /* Equals y hashcode */
     @Override
     public int hashCode() {
         int hash = 7;
@@ -143,55 +139,60 @@ public class App {
         return true;
     }
 
+    /* To string */
     @Override
     public String toString() {
         return codigoUnico + "\t" + nombre + "\t" + descripcion + "\t" + tamanioKb + "\t" + fechaCreacion;
     }
 
-    /* Metodo que genera un nombre de manera aleatoria */
+    /* Metodo que genera y devuelve un nombre de app de manera aleatoria */
     private static String generaNombreAleatorio() {
         //el formato es app+código único+letra aleatoria (a-z)
-        return "App" + getContadorInstancias() + letraMinuscula();
+        return "App" + getContadorInstancias() + generaLetraMinuscula();
 
     }
 
-    /* Genera letra minuscula aleatoria */
-    private static char letraMinuscula() {
-        return (char) (97 + random.nextInt(27));
+    /* Metodo que genera y devuelve una letra minuscula aleatoria */
+    private static char generaLetraMinuscula() {
+        return (char) (97 + random.nextInt(26));
     }
 
-    /* Metodo para generar valores aleatorios entre dos numeros */
-    private static int devuelveAleatorio(int n, int m) {
+    /* Metodo que devuelve un valor aleatorio entre dos numeros */
+    private static int generaNumeroAleatorio(int n, int m) {
         return random.nextInt(m - n + 1) + n;
     }
 
-    /* Genera descripcion aleatoria */
+    /* Metodo que genera una descripcion de app aleatoria */
     private static String generaDescripcionAleatoria() {
         String[] descripciones = {"Descripcion numero 1", "Descripcion numero 2", "Descripcion numero 3",
             "Descripcion numero 4", "Descripcion numero 5", "Descripcion numero 6",
             "Descripcion numero 7", "Descripcion numero 8", "Descripcion numero 9", "Descripcion numero 10"};
 
-        return descripciones[devuelveAleatorio(0, descripciones.length - 1)];
+        return descripciones[generaNumeroAleatorio(0, descripciones.length - 1)];
     }
 
-    /* Metodo que genera el tamaño de las aplicaciones */
+    /* Metodo que genera aleatoriamente el tamaño de las aplicaciones
+    entre dos valores */
     private static double generaTamanioAleatorio() {
+        final double TAMANIO_MIN_APP = 100.0;
+        final double TAMANIO_MAX_APP = 1024.0;
+        final int TAMANIO_STREAM = 1;
 
         return ((random.doubles(TAMANIO_STREAM, TAMANIO_MIN_APP, TAMANIO_MAX_APP)).toArray())[0];
     }
 
-    /* Metodo que genera una fecha aleaatoria */
+    /* Metodo que genera una fecha aleatoria */
     private static LocalDate generaFechaAleatoria() {
-        int anio = devuelveAleatorio(1970, 2022);
-        int mes = devuelveAleatorio(1, 12);
+        int anio = generaNumeroAleatorio(1970, 2022);
+        int mes = generaNumeroAleatorio(1, 12);
         int dia;
 
         switch (mes) {
             case 2:
                 if (Year.isLeap(anio)) { //si el año es bisiesto
-                    dia = devuelveAleatorio(1, 29);
+                    dia = generaNumeroAleatorio(1, 29);
                 } else {
-                    dia = devuelveAleatorio(1, 28);
+                    dia = generaNumeroAleatorio(1, 28);
                 }
                 break;
             //para todos los meses con 31 dias:
@@ -202,12 +203,12 @@ public class App {
             case 8:
             case 10:
             case 12:
-                dia = devuelveAleatorio(1, 31);
+                dia = generaNumeroAleatorio(1, 31);
                 break;
 
             //para el resto de meses tendran 30 dias
             default:
-                dia = devuelveAleatorio(1, 30);
+                dia = generaNumeroAleatorio(1, 30);
                 break;
 
         }

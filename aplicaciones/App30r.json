@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 30,
+  "nombre" : "App30r",
+  "descripcion" : "Descripcion numero 8",
+  "tamanioKb" : 610.3703579456412,
+  "fechaCreacion" : {
+    "year" : 1991,
+    "month" : "AUGUST",
+    "monthValue" : 8,
+    "dayOfMonth" : 18,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "era" : "CE",
+    "dayOfYear" : 230,
+    "dayOfWeek" : "SUNDAY",
+    "leapYear" : false
+  }
+}
