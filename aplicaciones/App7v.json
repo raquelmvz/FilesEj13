@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 7,
+  "nombre" : "App7v",
+  "descripcion" : "Descripcion numero 9",
+  "tamanioKb" : 766.737123584548,
+  "fechaCreacion" : {
+    "year" : 1994,
+    "month" : "DECEMBER",
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 338,
+    "dayOfWeek" : "SUNDAY",
+    "leapYear" : false,
+    "monthValue" : 12,
+    "dayOfMonth" : 4
+  }
+}

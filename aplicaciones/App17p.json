@@ -1,20 +1,20 @@
 {
   "codigoUnico" : 17,
   "nombre" : "App17p",
-  "descripcion" : "Descripcion numero 6",
-  "tamanioKb" : 100.35878069632693,
+  "descripcion" : "Descripcion numero 10",
+  "tamanioKb" : 962.5684034803944,
   "fechaCreacion" : {
-    "year" : 1989,
-    "month" : "JULY",
-    "monthValue" : 7,
-    "dayOfMonth" : 16,
+    "year" : 1992,
+    "month" : "JUNE",
     "chronology" : {
       "id" : "ISO",
       "calendarType" : "iso8601"
     },
     "era" : "CE",
-    "dayOfYear" : 197,
-    "dayOfWeek" : "SUNDAY",
-    "leapYear" : false
+    "dayOfYear" : 168,
+    "dayOfWeek" : "TUESDAY",
+    "leapYear" : true,
+    "monthValue" : 6,
+    "dayOfMonth" : 16
   }
 }

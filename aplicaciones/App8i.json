@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 8,
+  "nombre" : "App8i",
+  "descripcion" : "Descripcion numero 3",
+  "tamanioKb" : 728.1301344884962,
+  "fechaCreacion" : {
+    "year" : 2013,
+    "month" : "JULY",
+    "monthValue" : 7,
+    "dayOfMonth" : 27,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "era" : "CE",
+    "dayOfYear" : 208,
+    "dayOfWeek" : "SATURDAY",
+    "leapYear" : false
+  }
+}

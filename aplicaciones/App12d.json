@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 12,
+  "nombre" : "App12d",
+  "descripcion" : "Descripcion numero 6",
+  "tamanioKb" : 577.8041850857408,
+  "fechaCreacion" : {
+    "year" : 1981,
+    "month" : "SEPTEMBER",
+    "monthValue" : 9,
+    "dayOfMonth" : 19,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "era" : "CE",
+    "dayOfYear" : 262,
+    "dayOfWeek" : "SATURDAY",
+    "leapYear" : false
+  }
+}

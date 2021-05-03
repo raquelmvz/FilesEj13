@@ -1,20 +1,20 @@
 {
   "codigoUnico" : 41,
   "nombre" : "App41n",
-  "descripcion" : "Descripcion numero 7",
-  "tamanioKb" : 416.73599620737366,
+  "descripcion" : "Descripcion numero 9",
+  "tamanioKb" : 820.092415485659,
   "fechaCreacion" : {
-    "year" : 1971,
+    "year" : 2004,
     "month" : "SEPTEMBER",
-    "monthValue" : 9,
-    "dayOfMonth" : 19,
     "chronology" : {
-      "calendarType" : "iso8601",
-      "id" : "ISO"
+      "id" : "ISO",
+      "calendarType" : "iso8601"
     },
-    "dayOfWeek" : "SUNDAY",
-    "leapYear" : false,
-    "dayOfYear" : 262,
-    "era" : "CE"
+    "era" : "CE",
+    "dayOfYear" : 254,
+    "dayOfWeek" : "FRIDAY",
+    "leapYear" : true,
+    "monthValue" : 9,
+    "dayOfMonth" : 10
   }
 }

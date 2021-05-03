@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 30,
+  "nombre" : "App30k",
+  "descripcion" : "Descripcion numero 1",
+  "tamanioKb" : 698.6883711936368,
+  "fechaCreacion" : {
+    "year" : 2001,
+    "month" : "JANUARY",
+    "monthValue" : 1,
+    "dayOfMonth" : 14,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "era" : "CE",
+    "dayOfYear" : 14,
+    "dayOfWeek" : "SUNDAY",
+    "leapYear" : false
+  }
+}

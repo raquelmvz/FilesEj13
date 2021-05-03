@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 25,
+  "nombre" : "App25r",
+  "descripcion" : "Descripcion numero 5",
+  "tamanioKb" : 334.57062350454754,
+  "fechaCreacion" : {
+    "year" : 2015,
+    "month" : "JULY",
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 190,
+    "dayOfWeek" : "THURSDAY",
+    "leapYear" : false,
+    "monthValue" : 7,
+    "dayOfMonth" : 9
+  }
+}

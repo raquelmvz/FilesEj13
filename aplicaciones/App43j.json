@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 43,
+  "nombre" : "App43j",
+  "descripcion" : "Descripcion numero 5",
+  "tamanioKb" : 551.1395936242066,
+  "fechaCreacion" : {
+    "year" : 2013,
+    "month" : "JANUARY",
+    "monthValue" : 1,
+    "dayOfMonth" : 22,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "era" : "CE",
+    "dayOfYear" : 22,
+    "dayOfWeek" : "TUESDAY",
+    "leapYear" : false
+  }
+}

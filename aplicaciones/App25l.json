@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 25,
+  "nombre" : "App25l",
+  "descripcion" : "Descripcion numero 8",
+  "tamanioKb" : 724.5207410743568,
+  "fechaCreacion" : {
+    "year" : 2015,
+    "month" : "MAY",
+    "monthValue" : 5,
+    "dayOfMonth" : 20,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "era" : "CE",
+    "dayOfYear" : 140,
+    "dayOfWeek" : "WEDNESDAY",
+    "leapYear" : false
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 33,
+  "nombre" : "App33e",
+  "descripcion" : "Descripcion numero 3",
+  "tamanioKb" : 620.9048893498182,
+  "fechaCreacion" : {
+    "year" : 1990,
+    "month" : "JANUARY",
+    "monthValue" : 1,
+    "dayOfMonth" : 10,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "era" : "CE",
+    "dayOfYear" : 10,
+    "dayOfWeek" : "WEDNESDAY",
+    "leapYear" : false
+  }
+}

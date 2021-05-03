@@ -178,7 +178,7 @@ public class App {
         final double TAMANIO_MAX_APP = 1024.0;
         final int TAMANIO_STREAM = 1;
 
-        return ((random.doubles(TAMANIO_STREAM, TAMANIO_MIN_APP, TAMANIO_MAX_APP)).toArray())[0];
+        return ((random.doubles(TAMANIO_STREAM, TAMANIO_MIN_APP, TAMANIO_MAX_APP)).sum());
     }
 
     /* Metodo que genera una fecha aleatoria */

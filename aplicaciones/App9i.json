@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 9,
+  "nombre" : "App9i",
+  "descripcion" : "Descripcion numero 3",
+  "tamanioKb" : 819.6802003063018,
+  "fechaCreacion" : {
+    "year" : 2019,
+    "month" : "FEBRUARY",
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 59,
+    "dayOfWeek" : "THURSDAY",
+    "leapYear" : false,
+    "monthValue" : 2,
+    "dayOfMonth" : 28
+  }
+}

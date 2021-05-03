@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 26,
+  "nombre" : "App26c",
+  "descripcion" : "Descripcion numero 4",
+  "tamanioKb" : 136.12473888926598,
+  "fechaCreacion" : {
+    "year" : 2015,
+    "month" : "SEPTEMBER",
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 252,
+    "dayOfWeek" : "WEDNESDAY",
+    "leapYear" : false,
+    "monthValue" : 9,
+    "dayOfMonth" : 9
+  }
+}

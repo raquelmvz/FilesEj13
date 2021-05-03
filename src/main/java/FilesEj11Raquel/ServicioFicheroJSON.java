@@ -10,6 +10,8 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *
@@ -17,25 +19,41 @@ import java.util.ArrayList;
  */
 public class ServicioFicheroJSON {
 
-    public static void creaArchivoJSON(String rutaArchivo, ArrayList<App> lista) throws IOException {
+    /* Metodo que recibe un arraylist de Apps y una ruta de archivo
+    y crea un archivo json */
+    public static void creaArchivoJSON(String rutaArchivo, ArrayList<App> lista) {
 
+        //objeto mapeador para configurar el archivo json
         ObjectMapper mapeador = new ObjectMapper();
 
+        //el metodo configure --> para que la estructura este bien tabulada
         mapeador.configure(SerializationFeature.INDENT_OUTPUT, true);
 
-        // Escribe en un fichero JSON la lista
-        mapeador.writeValue(new File(rutaArchivo), lista);
+        try {
+            // Escribe en un fichero JSON la lista
+            mapeador.writeValue(new File(rutaArchivo), lista);
+        } catch (IOException ex) {
+            Logger.getLogger(ServicioFicheroJSON.class.getName()).log(Level.SEVERE, null, ex);
+            System.out.println("Error");
+        }
 
     }
 
-    public static void creaArchivoJSON(String rutaArchivo, App app) throws IOException {
+    /* Metodo que recibe un App y una ruta de archivo
+    y crea un archivo json */
+    public static void creaArchivoJSON(String rutaArchivo, App app) {
 
         ObjectMapper mapeador = new ObjectMapper();
 
         mapeador.configure(SerializationFeature.INDENT_OUTPUT, true);
 
-        // Escribe en un fichero JSON el catálogo de muebles
-        mapeador.writeValue(new File(rutaArchivo), app);
+        try {
+            // Escribe en un fichero JSON la lista
+            mapeador.writeValue(new File(rutaArchivo), app);
+        } catch (IOException ex) {
+            Logger.getLogger(ServicioFicheroJSON.class.getName()).log(Level.SEVERE, null, ex);
+            System.out.println("Error");
+        }
 
     }
 

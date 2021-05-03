@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 24,
+  "nombre" : "App24k",
+  "descripcion" : "Descripcion numero 3",
+  "tamanioKb" : 610.4965670980591,
+  "fechaCreacion" : {
+    "year" : 1992,
+    "month" : "AUGUST",
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 242,
+    "dayOfWeek" : "SATURDAY",
+    "leapYear" : true,
+    "monthValue" : 8,
+    "dayOfMonth" : 29
+  }
+}

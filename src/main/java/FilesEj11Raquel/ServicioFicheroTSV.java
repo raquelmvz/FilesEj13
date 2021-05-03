@@ -20,27 +20,16 @@ import java.util.ArrayList;
  */
 public class ServicioFicheroTSV {
 
+    /* Metodo al que se le pasa una ruta de archivo y una lista de Apps
+    y genera un fichero TSV */
     public static void creaArchivoTSV(String rutaArchivo, ArrayList<App> lista) {
 
-        //File fichero = new File("./" + ruta);
-        //creaDirectorio(nomDirectorio);
         creaFicheroVacio(rutaArchivo);
         escribeEnFichero(rutaArchivo, lista);
 
     }
 
-    public static void creaDirectorio(String nombreDirectorio) {
-        Path directory = Paths.get("./" + nombreDirectorio);
-
-        try {
-            Files.createDirectory(directory);
-        } catch (IOException e) {
-            System.out.println("Problema creando el directorio.");
-            System.out.println(e.toString());
-
-        }
-    }
-
+    /* Metodo que genera un fichero vacio */
     private static void creaFicheroVacio(String ruta) {
 
         //Path file = Paths.get(ruta, "/" + nombreFichero + ".tsv");
@@ -56,11 +45,13 @@ public class ServicioFicheroTSV {
 
     }
 
+    /* Metodo que recibe una ruta de archivo y una lista de Apps 
+    y escribe en el archivo los elementos de la lista */
     private static void escribeEnFichero(String ruta, ArrayList<App> lista) {
 
         String idFichero = ruta;//ruta del fichero
 
-        try ( BufferedWriter flujo = new BufferedWriter(new FileWriter(idFichero))) {
+        try (BufferedWriter flujo = new BufferedWriter(new FileWriter(idFichero))) {
 
             flujo.write("CODIGO UNICO\tNOMBRE\tDESCRIPCION\tTAMAÑO KB\tFECHA CREACION");
             flujo.newLine();
@@ -70,6 +61,7 @@ public class ServicioFicheroTSV {
                 flujo.newLine();
 
             }
+            flujo.flush(); //para forzar el guardado
 
             System.out.println(idFichero + " se ha creado");
         } catch (IOException e) {
@@ -79,6 +71,7 @@ public class ServicioFicheroTSV {
 
     }
 
+    /* Metodo al que se le pasa una ruta y permite leer el archivo */
     public static void listarDirectorio(String ruta) {
 
         File f = new File(ruta);
@@ -92,9 +85,4 @@ public class ServicioFicheroTSV {
             System.out.println("El directorio a listar no existe");
         }
     }
-
-//    public static void main(String[] args) {
-//
-//        creaArchivoTSV("ficheros", "./ficheros", "ficheroprueba111", "./ficheros/ficheroprueba111.tsv", listaApps);
-//    }
 }

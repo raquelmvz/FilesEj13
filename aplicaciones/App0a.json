@@ -1,20 +1,20 @@
 {
   "codigoUnico" : 0,
   "nombre" : "App0a",
-  "descripcion" : "Descripcion numero 6",
-  "tamanioKb" : 374.49305461189897,
+  "descripcion" : "Descripcion numero 7",
+  "tamanioKb" : 147.24352343679095,
   "fechaCreacion" : {
-    "year" : 1983,
-    "month" : "DECEMBER",
-    "monthValue" : 12,
-    "dayOfMonth" : 27,
+    "year" : 1976,
+    "month" : "JUNE",
+    "monthValue" : 6,
+    "dayOfMonth" : 18,
     "chronology" : {
       "calendarType" : "iso8601",
       "id" : "ISO"
     },
-    "dayOfWeek" : "TUESDAY",
-    "leapYear" : false,
-    "dayOfYear" : 361,
-    "era" : "CE"
+    "era" : "CE",
+    "dayOfYear" : 170,
+    "dayOfWeek" : "FRIDAY",
+    "leapYear" : true
   }
 }

@@ -5,9 +5,9 @@
  */
 package FilesEj11Raquel;
 
+import static FilesEj11Raquel.Directorio.creaDirectorio;
 import static FilesEj11Raquel.ServicioFicheroJSON.creaArchivoJSON;
 import static FilesEj11Raquel.ServicioFicheroTSV.creaArchivoTSV;
-import static FilesEj11Raquel.ServicioFicheroTSV.creaDirectorio;
 import static FilesEj11Raquel.ServicioFicheroXML.creaArchivoXML;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -18,14 +18,11 @@ import javax.xml.bind.JAXBException;
  * @author raque
  */
 public class Programa {
-    
+
     public static void main(String[] args) throws IOException, JAXBException {
-        
-        ArrayList<App> listaApps = new ArrayList<>();
-        
-        for (int i = 0; i < 50; i++) {
-            listaApps.add(App.generaObjetoAppAleatorio());
-        }
+
+        // Generacion de la lista de 50 apps
+        ArrayList<App> listaApps = generaListaApps(50);
 
         //creacion de los directorios
         creaDirectorio("appstsv");
@@ -40,7 +37,7 @@ public class Programa {
         //archivo json en su directorio
         creaArchivoJSON("./appsjson/aplicaciones.json", listaApps);
 
-        //archivos json por cada app
+        //se crea un archivo json por cada app
         for (int i = 0; i < listaApps.size(); i++) {
             creaArchivoJSON("./aplicaciones/" + listaApps.get(i).getNombre() + ".json", listaApps.get(i));
         }
@@ -48,5 +45,18 @@ public class Programa {
         //archivo xml
         creaArchivoXML("./appsxml/aplicaciones.xml", listaApps);
     }
-    
+
+    /* Metodo que genera una lista de apps dado un tamaño */
+    public static ArrayList generaListaApps(int tam) {
+
+        ArrayList<App> listaApps = new ArrayList<>();
+
+        for (int i = 0; i < tam; i++) {
+            //se usa el metodo de generar app aleatoria
+            listaApps.add(App.generaObjetoAppAleatorio());
+        }
+        return listaApps;
+
+    }
+
 }

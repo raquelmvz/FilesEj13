@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 7,
+  "nombre" : "App7e",
+  "descripcion" : "Descripcion numero 2",
+  "tamanioKb" : 931.8833361075492,
+  "fechaCreacion" : {
+    "year" : 1997,
+    "month" : "FEBRUARY",
+    "monthValue" : 2,
+    "dayOfMonth" : 21,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "era" : "CE",
+    "dayOfYear" : 52,
+    "dayOfWeek" : "FRIDAY",
+    "leapYear" : false
+  }
+}

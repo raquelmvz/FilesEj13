@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 9,
+  "nombre" : "App9w",
+  "descripcion" : "Descripcion numero 5",
+  "tamanioKb" : 103.92596349987905,
+  "fechaCreacion" : {
+    "year" : 2022,
+    "month" : "FEBRUARY",
+    "monthValue" : 2,
+    "dayOfMonth" : 6,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "era" : "CE",
+    "dayOfYear" : 37,
+    "dayOfWeek" : "SUNDAY",
+    "leapYear" : false
+  }
+}

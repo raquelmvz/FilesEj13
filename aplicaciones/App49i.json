@@ -1,20 +1,20 @@
 {
   "codigoUnico" : 49,
   "nombre" : "App49i",
-  "descripcion" : "Descripcion numero 6",
-  "tamanioKb" : 1003.8763629703793,
+  "descripcion" : "Descripcion numero 2",
+  "tamanioKb" : 332.6057646424435,
   "fechaCreacion" : {
-    "year" : 1978,
-    "month" : "MARCH",
-    "monthValue" : 3,
-    "dayOfMonth" : 26,
+    "year" : 2004,
+    "month" : "DECEMBER",
+    "monthValue" : 12,
+    "dayOfMonth" : 24,
     "chronology" : {
       "calendarType" : "iso8601",
       "id" : "ISO"
     },
-    "dayOfWeek" : "SUNDAY",
-    "leapYear" : false,
-    "dayOfYear" : 85,
-    "era" : "CE"
+    "era" : "CE",
+    "dayOfYear" : 359,
+    "dayOfWeek" : "FRIDAY",
+    "leapYear" : true
   }
 }

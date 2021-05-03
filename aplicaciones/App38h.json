@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 38,
+  "nombre" : "App38h",
+  "descripcion" : "Descripcion numero 10",
+  "tamanioKb" : 513.8053611758771,
+  "fechaCreacion" : {
+    "year" : 2004,
+    "month" : "JANUARY",
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 29,
+    "dayOfWeek" : "THURSDAY",
+    "leapYear" : true,
+    "monthValue" : 1,
+    "dayOfMonth" : 29
+  }
+}

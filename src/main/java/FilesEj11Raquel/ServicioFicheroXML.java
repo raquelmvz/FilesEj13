@@ -19,11 +19,16 @@ import javax.xml.bind.Marshaller;
  */
 public class ServicioFicheroXML { //corregir lo de las fechas
 
-    public static void creaArchivoXML(String rutaArchivo, ArrayList<App> lista) throws JAXBException {
+    /* Metodo al que se le pasa una ruta de archivo y una lista de apps 
+    y genera un fichero xml */
+    public static void creaArchivoXML(String rutaArchivo, ArrayList<App> lista) {
 
         try {
+            //se crea el objeto catalogoapp
             CatalogoAplicaciones catalogo = new CatalogoAplicaciones();
+            //se incluye la lista de apps que se pasa por parametro
             catalogo.setListaAplicaciones(lista);
+
             catalogo.setDescripcion("Mi catalogo");
 
             // Crea el contexto JAXB. Se encarga de definir los objetos 

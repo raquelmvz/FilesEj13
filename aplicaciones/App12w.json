@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 12,
+  "nombre" : "App12w",
+  "descripcion" : "Descripcion numero 1",
+  "tamanioKb" : 535.002502613625,
+  "fechaCreacion" : {
+    "year" : 1972,
+    "month" : "DECEMBER",
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 358,
+    "dayOfWeek" : "SATURDAY",
+    "leapYear" : true,
+    "monthValue" : 12,
+    "dayOfMonth" : 23
+  }
+}

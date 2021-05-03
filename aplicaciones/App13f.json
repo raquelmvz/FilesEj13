@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 13,
+  "nombre" : "App13f",
+  "descripcion" : "Descripcion numero 9",
+  "tamanioKb" : 614.6503449346604,
+  "fechaCreacion" : {
+    "year" : 2020,
+    "month" : "JANUARY",
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 3,
+    "dayOfWeek" : "FRIDAY",
+    "leapYear" : true,
+    "monthValue" : 1,
+    "dayOfMonth" : 3
+  }
+}

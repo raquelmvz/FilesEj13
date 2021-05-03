@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 49,
+  "nombre" : "App49w",
+  "descripcion" : "Descripcion numero 2",
+  "tamanioKb" : 618.6572084506139,
+  "fechaCreacion" : {
+    "year" : 1988,
+    "month" : "SEPTEMBER",
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 258,
+    "dayOfWeek" : "WEDNESDAY",
+    "leapYear" : true,
+    "monthValue" : 9,
+    "dayOfMonth" : 14
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 48,
+  "nombre" : "App48c",
+  "descripcion" : "Descripcion numero 9",
+  "tamanioKb" : 731.3468605065865,
+  "fechaCreacion" : {
+    "year" : 1974,
+    "month" : "APRIL",
+    "monthValue" : 4,
+    "dayOfMonth" : 6,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "era" : "CE",
+    "dayOfYear" : 96,
+    "dayOfWeek" : "SATURDAY",
+    "leapYear" : false
+  }
+}

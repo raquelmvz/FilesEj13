@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 20,
+  "nombre" : "App20y",
+  "descripcion" : "Descripcion numero 5",
+  "tamanioKb" : 587.9335368456343,
+  "fechaCreacion" : {
+    "year" : 1979,
+    "month" : "JUNE",
+    "monthValue" : 6,
+    "dayOfMonth" : 21,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "era" : "CE",
+    "dayOfYear" : 172,
+    "dayOfWeek" : "THURSDAY",
+    "leapYear" : false
+  }
+}

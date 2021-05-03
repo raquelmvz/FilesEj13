@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 37,
+  "nombre" : "App37x",
+  "descripcion" : "Descripcion numero 7",
+  "tamanioKb" : 484.74895931995684,
+  "fechaCreacion" : {
+    "year" : 1977,
+    "month" : "JANUARY",
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    },
+    "era" : "CE",
+    "dayOfYear" : 15,
+    "dayOfWeek" : "SATURDAY",
+    "leapYear" : false,
+    "monthValue" : 1,
+    "dayOfMonth" : 15
+  }
+}

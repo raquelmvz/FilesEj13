@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 35,
+  "nombre" : "App35z",
+  "descripcion" : "Descripcion numero 1",
+  "tamanioKb" : 553.3377797179159,
+  "fechaCreacion" : {
+    "year" : 1971,
+    "month" : "JULY",
+    "monthValue" : 7,
+    "dayOfMonth" : 26,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "era" : "CE",
+    "dayOfYear" : 207,
+    "dayOfWeek" : "MONDAY",
+    "leapYear" : false
+  }
+}

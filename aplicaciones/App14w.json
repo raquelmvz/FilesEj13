@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 14,
+  "nombre" : "App14w",
+  "descripcion" : "Descripcion numero 9",
+  "tamanioKb" : 676.4685555531653,
+  "fechaCreacion" : {
+    "year" : 2016,
+    "month" : "JANUARY",
+    "monthValue" : 1,
+    "dayOfMonth" : 29,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "era" : "CE",
+    "dayOfYear" : 29,
+    "dayOfWeek" : "FRIDAY",
+    "leapYear" : true
+  }
+}

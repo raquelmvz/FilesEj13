@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 21,
+  "nombre" : "App21i",
+  "descripcion" : "Descripcion numero 7",
+  "tamanioKb" : 554.2510380965796,
+  "fechaCreacion" : {
+    "year" : 1986,
+    "month" : "MAY",
+    "monthValue" : 5,
+    "dayOfMonth" : 24,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "era" : "CE",
+    "dayOfYear" : 144,
+    "dayOfWeek" : "SATURDAY",
+    "leapYear" : false
+  }
+}

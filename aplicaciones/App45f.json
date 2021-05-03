@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 45,
+  "nombre" : "App45f",
+  "descripcion" : "Descripcion numero 7",
+  "tamanioKb" : 732.2301574735606,
+  "fechaCreacion" : {
+    "year" : 2013,
+    "month" : "NOVEMBER",
+    "monthValue" : 11,
+    "dayOfMonth" : 22,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "era" : "CE",
+    "dayOfYear" : 326,
+    "dayOfWeek" : "FRIDAY",
+    "leapYear" : false
+  }
+}

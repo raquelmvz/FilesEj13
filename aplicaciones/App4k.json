@@ -1,20 +1,20 @@
 {
   "codigoUnico" : 4,
   "nombre" : "App4k",
-  "descripcion" : "Descripcion numero 6",
-  "tamanioKb" : 945.6315821039717,
+  "descripcion" : "Descripcion numero 1",
+  "tamanioKb" : 647.971274987491,
   "fechaCreacion" : {
-    "year" : 1976,
-    "month" : "JANUARY",
-    "monthValue" : 1,
-    "dayOfMonth" : 5,
+    "year" : 2002,
+    "month" : "MAY",
+    "monthValue" : 5,
+    "dayOfMonth" : 28,
     "chronology" : {
       "calendarType" : "iso8601",
       "id" : "ISO"
     },
-    "dayOfWeek" : "MONDAY",
-    "leapYear" : true,
-    "dayOfYear" : 5,
-    "era" : "CE"
+    "era" : "CE",
+    "dayOfYear" : 148,
+    "dayOfWeek" : "TUESDAY",
+    "leapYear" : false
   }
 }

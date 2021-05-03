@@ -1,0 +1,20 @@
+{
+  "codigoUnico" : 28,
+  "nombre" : "App28m",
+  "descripcion" : "Descripcion numero 10",
+  "tamanioKb" : 700.2961524931919,
+  "fechaCreacion" : {
+    "year" : 2017,
+    "month" : "JULY",
+    "monthValue" : 7,
+    "dayOfMonth" : 28,
+    "chronology" : {
+      "calendarType" : "iso8601",
+      "id" : "ISO"
+    },
+    "era" : "CE",
+    "dayOfYear" : 209,
+    "dayOfWeek" : "FRIDAY",
+    "leapYear" : false
+  }
+}
