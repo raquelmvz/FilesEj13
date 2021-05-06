@@ -1,20 +1,7 @@
 {
   "codigoUnico" : 7,
   "nombre" : "App7f",
-  "descripcion" : "Descripcion numero 2",
-  "tamanioKb" : 552.5635886274781,
-  "fechaCreacion" : {
-    "year" : 2002,
-    "month" : "MAY",
-    "monthValue" : 5,
-    "dayOfMonth" : 17,
-    "chronology" : {
-      "id" : "ISO",
-      "calendarType" : "iso8601"
-    },
-    "era" : "CE",
-    "dayOfYear" : 137,
-    "dayOfWeek" : "FRIDAY",
-    "leapYear" : false
-  }
+  "descripcion" : "Descripcion numero 7",
+  "tamanioKb" : 141.5005127432008,
+  "fechaCreacion" : "04/02/2012"
 }

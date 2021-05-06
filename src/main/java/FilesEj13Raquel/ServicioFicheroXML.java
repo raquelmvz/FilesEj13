@@ -68,7 +68,7 @@ public class ServicioFicheroXML { //corregir lo de las fechas
     }
 
     /* Metodo que permite leer el fichero XML */
-    public static void leeArchivoXML(String rutaArchivo) {
+    public static void leeArchivoXML(String rutaArchivo) {//que devuelva la lista
 
         try {
 

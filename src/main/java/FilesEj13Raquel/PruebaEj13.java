@@ -30,12 +30,14 @@ public class PruebaEj13 {
         //lectura del fichero y creacion de un objeto app
         //con la informacion leida
         //usamos el metodo creado en ServicioFicheroJSON
-
-        //App aplicacionLeida = leeFicheroJSONApp(listaFicheros.get(indiceFicheroElegido));
+         //System.out.println("ruta: " + listaFicheros.get(indiceFicheroElegido));
+        App aplicacionLeida = leeFicheroJSONApp(listaFicheros.get(indiceFicheroElegido));
         //se muestra la app por pantalla
-        //System.out.println("\n--------------------------------------\n"
-        //        + "INFORMACION SOBRE LA APP LEIDA:");
-        //aplicacionLeida.toString();
+        System.out.println("\n--------------------------------------\n"
+                + "INFORMACION SOBRE LA APP LEIDA:");
+        System.out.println(aplicacionLeida.toString());
+        
+        
     }
 
     /* Metodo al que se le pasa una ruta y permite listar los ficheros que contiene

@@ -1,20 +1,7 @@
 {
   "codigoUnico" : 32,
   "nombre" : "App32b",
-  "descripcion" : "Descripcion numero 1",
-  "tamanioKb" : 477.1855360291501,
-  "fechaCreacion" : {
-    "year" : 2008,
-    "month" : "APRIL",
-    "monthValue" : 4,
-    "dayOfMonth" : 9,
-    "chronology" : {
-      "id" : "ISO",
-      "calendarType" : "iso8601"
-    },
-    "era" : "CE",
-    "dayOfYear" : 100,
-    "dayOfWeek" : "WEDNESDAY",
-    "leapYear" : true
-  }
+  "descripcion" : "Descripcion numero 3",
+  "tamanioKb" : 797.8706818353373,
+  "fechaCreacion" : "16/06/2012"
 }

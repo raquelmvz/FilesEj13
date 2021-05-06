@@ -94,14 +94,14 @@ public class ServicioFicheroJSON {
 
             ObjectMapper mapeador = new ObjectMapper();
 
-            aplicacion = mapeador.readValue(new File(rutaArchivo), mapeador.constructType(App.class));
-            System.out.println("---- Catálogo de aplicaciones ----");
+            aplicacion = mapeador.readValue(new File(rutaArchivo), App.class);
+            //System.out.println("---- Catálogo de aplicaciones ----");
 
-            aplicacion.toString();
+            //aplicacion.toString();
 
         } catch (IOException ex) {
-            Logger.getLogger(ServicioFicheroJSON.class.getName()).log(Level.SEVERE, null, ex);
-            System.out.println("Error");
+            //Logger.getLogger(ServicioFicheroJSON.class.getName()).log(Level.SEVERE, null, ex);
+            System.out.println("No se ha encontrado el archivo");
         }
 
         return aplicacion;

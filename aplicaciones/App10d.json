@@ -2,19 +2,6 @@
   "codigoUnico" : 10,
   "nombre" : "App10d",
   "descripcion" : "Descripcion numero 8",
-  "tamanioKb" : 916.8555468596562,
-  "fechaCreacion" : {
-    "year" : 2020,
-    "month" : "SEPTEMBER",
-    "monthValue" : 9,
-    "dayOfMonth" : 10,
-    "chronology" : {
-      "id" : "ISO",
-      "calendarType" : "iso8601"
-    },
-    "era" : "CE",
-    "dayOfYear" : 254,
-    "dayOfWeek" : "THURSDAY",
-    "leapYear" : true
-  }
+  "tamanioKb" : 644.1865497327743,
+  "fechaCreacion" : "31/12/1997"
 }
